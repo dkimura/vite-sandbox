@@ -6,7 +6,9 @@ const config = {
       files: ['**/*.ts?(x)'],
       parserOptions: {
         tsconfigRootDir: __dirname,
-        project: require.resolve('./.tsconfig.json'),
+      },
+      rules: {
+        'react/react-in-jsx-scope': 'off',
       },
     },
   ],
