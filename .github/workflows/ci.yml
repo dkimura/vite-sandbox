@@ -29,8 +29,9 @@ jobs:
 
       - name: Install dependencies 👨🏻‍💻
         run: pnpm install --frozen-lockfile
-        env:
-          CI: true
+
+      - name: Run lint 👀
+        run: pnpm lint
 
       - name: Run build 🤖
         run: pnpm build
