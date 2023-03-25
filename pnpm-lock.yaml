@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@auth0/auth0-react': 2.0.1
-  '@generouted/react-router': 1.11.6
+  '@generouted/react-router': 1.11.7
   '@types/eslint': 8.21.3
   '@types/react': 18.0.29
   '@types/react-dom': 18.0.11
@@ -22,7 +22,7 @@ specifiers:
 
 dependencies:
   '@auth0/auth0-react': 2.0.1_biqbaboplfbrettd7655fr4n2y
-  '@generouted/react-router': 1.11.6_vite@4.2.1
+  '@generouted/react-router': 1.11.7_vite@4.2.1
   generouted: 1.11.6_vite@4.2.1
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
@@ -520,8 +520,8 @@ packages:
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dev: true
 
-  /@generouted/react-router/1.11.6_vite@4.2.1:
-    resolution: {integrity: sha512-yQm6HpnMxOo2JagSnoY8JfkJM3wVoW1zdkSSHQu7Jtb8LJt4Ge2w1PnPN+zLmhOrjD+OTLdr0U3qZnNLdvO03A==}
+  /@generouted/react-router/1.11.7_vite@4.2.1:
+    resolution: {integrity: sha512-T9kKz9uOLhsMcO+SxBVXrtAW3C7YYxtxXrBglsBOJDI5rRK2r0TpYWlLIFbBAYFQ/ffxXd5G3OKSvtGKrGP+nw==}
     peerDependencies:
       vite: '>=3'
     dependencies:
