@@ -23,9 +23,9 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version-file: ${{ env.WORKING_DIR }}/.tool-versions
+          node-version-file: .tool-versions
           cache: pnpm
-          cache-dependency-path: ${{ env.WORKING_DIR }}/pnpm-lock.yaml
+          cache-dependency-path: pnpm-lock.yaml
 
       - name: Install dependencies 👨🏻‍💻
         run: pnpm install --frozen-lockfile
