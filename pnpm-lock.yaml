@@ -10,7 +10,7 @@ specifiers:
   auth0-deploy-cli: 7.17.0
   eslint: 8.36.0
   eslint-config-kentcdodds: 20.5.0
-  generouted: 1.11.6
+  generouted: 1.11.7
   husky: 8.0.3
   lint-staged: 13.2.0
   prettier: 2.8.7
@@ -23,7 +23,7 @@ specifiers:
 dependencies:
   '@auth0/auth0-react': 2.0.1_biqbaboplfbrettd7655fr4n2y
   '@generouted/react-router': 1.11.7_vite@4.2.1
-  generouted: 1.11.6_vite@4.2.1
+  generouted: 1.11.7_vite@4.2.1
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   react-router-dom: 6.9.0_biqbaboplfbrettd7655fr4n2y
@@ -2145,8 +2145,8 @@ packages:
     resolution: {integrity: sha512-xckBUXyTIqT97tq2x2AMb+g163b5JFysYk0x4qxNFwbfQkmNZoiRHb6sPzI9/QV33WeuvVYBUIiD4NzNIyqaRQ==}
     dev: true
 
-  /generouted/1.11.6_vite@4.2.1:
-    resolution: {integrity: sha512-2e6HG9ymJbWXQfE1sI5HkzBtKtY6aBO+xDzhw4SaYsDhT5UmGCz9cdykbYXFCWDm9osud4yIYr/x4I0Ruqzlmg==}
+  /generouted/1.11.7_vite@4.2.1:
+    resolution: {integrity: sha512-CFOF2N8upP84E5Lh7l1F9lC7XgHHkokKMptC+zD/T7K2f++gQH6OEIUv7XIIuwWfZAz8DtdQXVph4bB5Wg8vcw==}
     peerDependencies:
       vite: '>=3'
     dependencies:
