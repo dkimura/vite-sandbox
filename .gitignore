@@ -135,3 +135,6 @@ dist
 # auth0
 auth0.config.json
 auth0
+
+# generouted
+src/router.ts
