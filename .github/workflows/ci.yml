@@ -1,0 +1,37 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+
+    env:
+      CI: true
+
+    steps:
+      - name: Checkout 🛎
+        uses: actions/checkout@v3
+
+      - name: Setup pnpm 🧑‍💼
+        uses: pnpm/action-setup@v2
+        with:
+          version: latest
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version-file: ${{ env.WORKING_DIR }}/.tool-versions
+          cache: pnpm
+          cache-dependency-path: ${{ env.WORKING_DIR }}/pnpm-lock.yaml
+
+      - name: Install dependencies 👨🏻‍💻
+        run: pnpm install --frozen-lockfile
+        env:
+          CI: true
+
+      - name: Run build 🤖
+        run: pnpm build
+
