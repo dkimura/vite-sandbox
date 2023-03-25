@@ -1,11 +1,12 @@
 {
-  "name": "vite-sandbox",
   "private": true,
+  "name": "vite-sandbox",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
     "build": "tsc && vite build",
+    "dev": "vite",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -13,11 +14,15 @@
     "react-dom": "18.2.0"
   },
   "devDependencies": {
+    "@types/eslint": "8.21.3",
     "@types/react": "18.0.29",
     "@types/react-dom": "18.0.11",
     "@vitejs/plugin-react-swc": "3.2.0",
+    "eslint": "8.36.0",
+    "eslint-config-kentcdodds": "20.5.0",
     "husky": "8.0.3",
     "lint-staged": "13.2.0",
+    "prettier": "2.8.7",
     "typescript": "5.0.2",
     "vite": "4.2.1"
   },
