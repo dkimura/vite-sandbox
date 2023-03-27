@@ -134,7 +134,7 @@ dist
 
 # auth0
 auth0.config.json
-auth0
+packages/auth0/local
 
 # generouted
-src/router.ts
+apps/vite/src/router.ts
