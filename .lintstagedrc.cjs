@@ -1,4 +1,4 @@
 module.exports = {
   'package.json': ['pnpx prettier-package-json --write'],
-  '*.{ts,tsx,js}': ['prettier --write', 'eslint --fix'],
+  '*.{ts,tsx,js}': ['prettier --write'],
 }
