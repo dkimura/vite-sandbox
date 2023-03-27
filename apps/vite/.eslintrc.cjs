@@ -1,5 +1,6 @@
 /** @type {import('eslint').Linter.Config} */
 const config = {
+  root: true,
   extends: ['kentcdodds', 'kentcdodds/jest', 'kentcdodds/react'],
   overrides: [
     {

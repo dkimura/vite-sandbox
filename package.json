@@ -4,33 +4,15 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "auth0:export": "a0deploy export --format=yaml --output_folder=auth0 -c=auth0.config.json",
-    "build": "tsc && vite build",
-    "dev": "vite",
-    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "@auth0/auth0-react": "2.0.1",
-    "@generouted/react-router": "1.11.7",
-    "generouted": "1.11.7",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "react-router-dom": "6.9.0"
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "lint": "turbo lint"
   },
   "devDependencies": {
-    "@types/eslint": "8.21.3",
-    "@types/react": "18.0.29",
-    "@types/react-dom": "18.0.11",
-    "@vitejs/plugin-react": "3.1.0",
-    "auth0-deploy-cli": "7.17.0",
-    "eslint": "8.36.0",
-    "eslint-config-kentcdodds": "20.5.0",
     "husky": "8.0.3",
     "lint-staged": "13.2.0",
     "prettier": "2.8.7",
-    "typescript": "5.0.2",
-    "vite": "4.2.1"
+    "turbo": "1.8.5"
   },
   "packageManager": "pnpm@7.30.3"
 }
