@@ -25,9 +25,6 @@ importers:
       '@generouted/react-router':
         specifier: 1.12.4
         version: 1.12.4(react-router-dom@6.10.0)(react@18.2.0)(vite@4.2.1)
-      generouted:
-        specifier: 1.12.4
-        version: 1.12.4(vite@4.2.1)
       react:
         specifier: 18.2.0
         version: 18.2.0
