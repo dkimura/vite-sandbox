@@ -24,7 +24,7 @@ importers:
         version: 2.1.0(react-dom@18.2.0)(react@18.2.0)
       '@generouted/react-router':
         specifier: 1.12.7
-        version: 1.12.7(react-router-dom@6.11.1)(react@18.2.0)(vite@4.3.5)
+        version: 1.12.7(react-router-dom@6.11.1)(react@18.2.0)(vite@4.3.6)
       react:
         specifier: 18.2.0
         version: 18.2.0
@@ -46,7 +46,7 @@ importers:
         version: 18.2.4
       '@vitejs/plugin-react':
         specifier: 4.0.0
-        version: 4.0.0(vite@4.3.5)
+        version: 4.0.0(vite@4.3.6)
       eslint:
         specifier: 8.40.0
         version: 8.40.0
@@ -57,8 +57,8 @@ importers:
         specifier: 5.0.4
         version: 5.0.4
       vite:
-        specifier: 4.3.5
-        version: 4.3.5
+        specifier: 4.3.6
+        version: 4.3.6
 
   packages/auth0:
     dependencies:
@@ -544,7 +544,7 @@ packages:
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dev: true
 
-  /@generouted/react-router@1.12.7(react-router-dom@6.11.1)(react@18.2.0)(vite@4.3.5):
+  /@generouted/react-router@1.12.7(react-router-dom@6.11.1)(react@18.2.0)(vite@4.3.6):
     resolution: {integrity: sha512-SwEaTv/rixDac5m3k48USS3JZpvbFKjFGpO0zFrg6A8ZaOBpLXBwSlL5a+TdSdoaGrKnALJJHr5Zcu/0N2FMHg==}
     peerDependencies:
       react: '>=18'
@@ -552,10 +552,10 @@ packages:
       vite: '>=4'
     dependencies:
       fast-glob: 3.2.12
-      generouted: 1.12.7(vite@4.3.5)
+      generouted: 1.12.7(vite@4.3.6)
       react: 18.2.0
       react-router-dom: 6.11.1(react-dom@18.2.0)(react@18.2.0)
-      vite: 4.3.5
+      vite: 4.3.6
     dev: false
 
   /@humanwhocodes/config-array@0.11.8:
@@ -911,7 +911,7 @@ packages:
       eslint-visitor-keys: 3.4.1
     dev: true
 
-  /@vitejs/plugin-react@4.0.0(vite@4.3.5):
+  /@vitejs/plugin-react@4.0.0(vite@4.3.6):
     resolution: {integrity: sha512-HX0XzMjL3hhOYm+0s95pb0Z7F8O81G7joUHgfDd/9J/ZZf5k4xX6QAMFkKsHFxaHlf6X7GD7+XuaZ66ULiJuhQ==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
@@ -921,7 +921,7 @@ packages:
       '@babel/plugin-transform-react-jsx-self': 7.21.0(@babel/core@7.21.8)
       '@babel/plugin-transform-react-jsx-source': 7.19.6(@babel/core@7.21.8)
       react-refresh: 0.14.0
-      vite: 4.3.5
+      vite: 4.3.6
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -2164,12 +2164,12 @@ packages:
     resolution: {integrity: sha512-xckBUXyTIqT97tq2x2AMb+g163b5JFysYk0x4qxNFwbfQkmNZoiRHb6sPzI9/QV33WeuvVYBUIiD4NzNIyqaRQ==}
     dev: true
 
-  /generouted@1.12.7(vite@4.3.5):
+  /generouted@1.12.7(vite@4.3.6):
     resolution: {integrity: sha512-ALzK9sGjGpkgoozMRH7Hg3zRWmo2lTeArjxpAjGtD2KH3ZabldYH1/Yhf3pC2LT0AqNOArgKy2wq/CU0orlCNg==}
     peerDependencies:
       vite: '>=3'
     dependencies:
-      vite: 4.3.5
+      vite: 4.3.6
     dev: false
 
   /gensync@1.0.0-beta.2:
@@ -4049,8 +4049,8 @@ packages:
       spdx-expression-parse: 3.0.1
     dev: true
 
-  /vite@4.3.5:
-    resolution: {integrity: sha512-0gEnL9wiRFxgz40o/i/eTBwm+NEbpUeTWhzKrZDSdKm6nplj+z4lKz8ANDgildxHm47Vg8EUia0aicKbawUVVA==}
+  /vite@4.3.6:
+    resolution: {integrity: sha512-cqIyLSbA6gornMS659AXTVKF7cvSHMdKmJJwQ9DXq3lwsT1uZSdktuBRlpHQ8VnOWx0QHtjDwxPpGtyo9Fh/Qg==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
