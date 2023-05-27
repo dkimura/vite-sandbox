@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@auth0/auth0-react": "2.1.0",
-    "@generouted/react-router": "1.12.8",
+    "@generouted/react-router": "1.12.9",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-router-dom": "6.11.2"
