@@ -67,8 +67,8 @@ importers:
   packages/auth0:
     dependencies:
       auth0-deploy-cli:
-        specifier: 7.17.3
-        version: 7.17.3
+        specifier: 7.17.4
+        version: 7.17.4
 
 packages:
 
@@ -1082,8 +1082,8 @@ packages:
     resolution: {integrity: sha512-Oei9OH4tRh0YqU3GxhX79dM/mwVgvbZJaSNaRk+bshkj0S5cfHcgYakreBjrHwatXKbz+IoIdYLxrKim2MjW0Q==}
     dev: false
 
-  /auth0-deploy-cli@7.17.3:
-    resolution: {integrity: sha512-nJ1tIlGrjwBpSDc7GH2cXJVNWE7ERzMjCeEafl7v+SbfiyY7G67HOR6uubO/xJ/H1EiDGqM0PX8Cl+QiKvQyig==}
+  /auth0-deploy-cli@7.17.4:
+    resolution: {integrity: sha512-GHnpY3dIJGkov8wjD2MUsivNsO/7fWYzj0ImMihTLYJivVYPW88y/3Y86DaN0ntxccTcvI3SIcnziHEU3E6hqA==}
     hasBin: true
     dependencies:
       ajv: 6.12.6
