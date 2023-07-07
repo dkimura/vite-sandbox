@@ -6,6 +6,6 @@
     "export": "a0deploy export --format=yaml --output_folder=local -c=auth0.config.json"
   },
   "dependencies": {
-    "auth0-deploy-cli": "7.17.6"
+    "auth0-deploy-cli": "7.17.7"
   }
 }
