@@ -10,6 +10,15 @@ export default defineConfig({
       name: 'ui',
       fileName: (format) => `index.${format}.js`,
     },
+    rollupOptions: {
+      external: ['react', 'react-dom'],
+      output: {
+        globals: {
+          react: 'React',
+          'react-dom': 'ReactDOM',
+        },
+      },
+    },
   },
   plugins: [react(), dts({ copyDtsFiles: true })],
 })
