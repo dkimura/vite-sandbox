@@ -1,5 +1,1 @@
-export const Hello = () => (
-  <div>
-    <h1>Hello</h1>
-  </div>
-)
+export * from '@mantine/core'
