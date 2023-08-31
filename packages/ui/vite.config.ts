@@ -6,9 +6,9 @@ import dts from 'vite-plugin-dts'
 export default defineConfig({
   build: {
     lib: {
-      entry: 'src/index.tsx',
+      entry: ['src/index.tsx', 'src/hooks.ts'],
       name: 'ui',
-      fileName: (format) => `index.${format}.js`,
+      fileName: (format, fileName) => `${fileName}.${format}.js`,
     },
     rollupOptions: {
       external: ['react', 'react-dom'],
