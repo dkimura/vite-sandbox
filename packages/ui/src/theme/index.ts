@@ -1,7 +1,9 @@
 import { MantineThemeOverride } from '@mantine/core'
+import '@fontsource/noto-sans-jp'
 
 export const theme: MantineThemeOverride = {
   primaryColor: 'yellow',
+  fontFamily: 'Noto Sans JP, sans-serif',
   colors: {
     gray: [
       '#FAFAFA',

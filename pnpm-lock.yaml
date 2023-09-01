@@ -90,6 +90,9 @@ importers:
       '@emotion/react':
         specifier: 11.11.1
         version: 11.11.1(@types/react@18.2.21)(react@18.2.0)
+      '@fontsource/noto-sans-jp':
+        specifier: 5.0.10
+        version: 5.0.10
       '@mantine/core':
         specifier: 6.0.19
         version: 6.0.19(@emotion/react@11.11.1)(@mantine/hooks@6.0.19)(@types/react@18.2.21)(react-dom@18.2.0)(react@18.2.0)
@@ -735,6 +738,10 @@ packages:
 
   /@floating-ui/utils@0.1.1:
     resolution: {integrity: sha512-m0G6wlnhm/AX0H12IOWtK8gASEMffnX08RtKkCgTdHb9JpHKGloI7icFfLg9ZmQeavcvR0PKmzxClyuFPSjKWw==}
+    dev: false
+
+  /@fontsource/noto-sans-jp@5.0.10:
+    resolution: {integrity: sha512-ArPDBnOSzNeeSTpdATnQJnKukJqWxmv53IpPjER2LKTcP4MQ6l89pFGg4n+TtLkdkUMsQEfkffBMR6GrpYQIYw==}
     dev: false
 
   /@generouted/react-router@1.15.7(react-router-dom@6.15.0)(react@18.2.0)(vite@4.4.9):
