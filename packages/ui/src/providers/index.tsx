@@ -1,4 +1,4 @@
-import { MantineProvider } from '..'
+import { MantineProvider } from '@mantine/core'
 
 import { theme } from '../theme/index'
 
