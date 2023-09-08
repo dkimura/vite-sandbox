@@ -30,8 +30,8 @@ importers:
         specifier: workspace:*
         version: link:../../packages/ui
       '@generouted/react-router':
-        specifier: 1.15.7
-        version: 1.15.7(react-router-dom@6.15.0)(react@18.2.0)(vite@4.4.9)
+        specifier: 1.15.8
+        version: 1.15.8(react-router-dom@6.15.0)(react@18.2.0)(vite@4.4.9)
       react:
         specifier: 18.2.0
         version: 18.2.0
@@ -744,15 +744,15 @@ packages:
     resolution: {integrity: sha512-ArPDBnOSzNeeSTpdATnQJnKukJqWxmv53IpPjER2LKTcP4MQ6l89pFGg4n+TtLkdkUMsQEfkffBMR6GrpYQIYw==}
     dev: false
 
-  /@generouted/react-router@1.15.7(react-router-dom@6.15.0)(react@18.2.0)(vite@4.4.9):
-    resolution: {integrity: sha512-1Syo2pxpPnVHCKtBSUGEefjgpZh5QWhIe3gH6+T73hnYwMKXfp/iXiTrqzFD6bZuuuathx31YIyX9F0rq2QNzQ==}
+  /@generouted/react-router@1.15.8(react-router-dom@6.15.0)(react@18.2.0)(vite@4.4.9):
+    resolution: {integrity: sha512-P0bHA4UPsp1VAoJmYmsBAQhiT1cGfVwfyerw+K6RAtTZnb8QHYAas5jLK4MYJtGWxSO0AuezHzBmfT1QpjlvSg==}
     peerDependencies:
       react: '>=18'
       react-router-dom: '>=6'
       vite: '>=4'
     dependencies:
       fast-glob: 3.3.1
-      generouted: 1.15.7(vite@4.4.9)
+      generouted: 1.15.8(vite@4.4.9)
       react: 18.2.0
       react-router-dom: 6.15.0(react-dom@18.2.0)(react@18.2.0)
       vite: 4.4.9
@@ -2427,8 +2427,8 @@ packages:
   /function-bind@1.1.1:
     resolution: {integrity: sha512-yIovAzMX49sF8Yl58fSCWJ5svSLuaibPxXQJFLmBObTuCr0Mf1KiPopGM9NiFjiYBCbfaa2Fh6breQ6ANVTI0A==}
 
-  /generouted@1.15.7(vite@4.4.9):
-    resolution: {integrity: sha512-Rll1LTdWizn9iRUZA0AvW2a570e3k4YAfCy5SEdBeO5mwzEvtLivbLvbxCMOk8/QPrzbB/giY8iGnK5unAeK4w==}
+  /generouted@1.15.8(vite@4.4.9):
+    resolution: {integrity: sha512-bX1nd4+xS/A/K1Wbct57GOtso1HQj6YZfJTGqW+vMR5x+fKGaabVWklP+0xNMiZ1r5VRetlckH+rjeQMXquU7A==}
     peerDependencies:
       vite: '>=3'
     dependencies:
