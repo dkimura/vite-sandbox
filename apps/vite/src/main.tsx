@@ -4,6 +4,8 @@ import { Auth0Provider } from '@auth0/auth0-react'
 import { Routes } from '@generouted/react-router'
 import { Provider } from '@dkimura/ui'
 
+import '@dkimura/ui/style.css'
+
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
     <Provider>
