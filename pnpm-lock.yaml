@@ -94,11 +94,11 @@ importers:
         specifier: 5.0.11
         version: 5.0.11
       '@mantine/core':
-        specifier: 7.0.1
-        version: 7.0.1(@mantine/hooks@7.0.1)(@types/react@18.2.22)(react-dom@18.2.0)(react@18.2.0)
+        specifier: 7.0.2
+        version: 7.0.2(@mantine/hooks@7.0.2)(@types/react@18.2.22)(react-dom@18.2.0)(react@18.2.0)
       '@mantine/hooks':
-        specifier: 7.0.1
-        version: 7.0.1(react@18.2.0)
+        specifier: 7.0.2
+        version: 7.0.2(react@18.2.0)
     devDependencies:
       '@types/react':
         specifier: ^18.2.15
@@ -808,15 +808,15 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.15
     dev: true
 
-  /@mantine/core@7.0.1(@mantine/hooks@7.0.1)(@types/react@18.2.22)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-cQqQWo5uZy6G+5WwEFRt6hoHwADVRy0IQ4pW+dyhcfp1aHYHf9C1T2vP/naUZR3nczYr5j63ZVgiSwqQaqc17Q==}
+  /@mantine/core@7.0.2(@mantine/hooks@7.0.2)(@types/react@18.2.22)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-aJodq48NE4FAgpzimPtT0Izr/dqhXkBwCDOYxgTTe+LpNwTzEJqBfZeysB2B3Aobr7MaEWPvvyUi3Uu9qL5y0g==}
     peerDependencies:
-      '@mantine/hooks': 7.0.1
+      '@mantine/hooks': 7.0.2
       react: ^18.2.0
       react-dom: ^18.2.0
     dependencies:
       '@floating-ui/react': 0.24.8(react-dom@18.2.0)(react@18.2.0)
-      '@mantine/hooks': 7.0.1(react@18.2.0)
+      '@mantine/hooks': 7.0.2(react@18.2.0)
       clsx: 2.0.0
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
@@ -828,8 +828,8 @@ packages:
       - '@types/react'
     dev: false
 
-  /@mantine/hooks@7.0.1(react@18.2.0):
-    resolution: {integrity: sha512-rPHghtUh1YYhArZzhVHMWEX4kWVieffuuaOGB8954Yyw0o1X7wIgQ35cVRS52CGtFbUToS7kaYSdxI0THkca/Q==}
+  /@mantine/hooks@7.0.2(react@18.2.0):
+    resolution: {integrity: sha512-Zs0h7O9yI4Lhcebp/eXN+jfFSBS4jNuKRN5msj54decKcnA9ZxjkUpUqAwCNU0Re+cx6RFSBmB8eOA/+5sw+nA==}
     peerDependencies:
       react: ^18.2.0
     dependencies:
