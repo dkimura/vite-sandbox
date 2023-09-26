@@ -1,5 +1,5 @@
-import { Provider } from '@dkimura/ui'
 import type { Preview } from '@storybook/react'
+import { Provider } from '../../../packages/ui/src'
 import '@dkimura/ui/style.css'
 
 const preview: Preview = {
