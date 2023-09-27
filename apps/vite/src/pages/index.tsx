@@ -1,5 +1,6 @@
 import { Button } from '@dkimura/ui'
 import { useAuth0 } from '@auth0/auth0-react'
+import { MdMailOutline } from '@dkimura/icons'
 
 const Home = () => {
   const { isLoading, isAuthenticated, error, user, loginWithRedirect, logout } =
@@ -20,7 +21,14 @@ const Home = () => {
       </div>
     )
   } else {
-    return <Button onClick={() => loginWithRedirect()}>Log in</Button>
+    return (
+      <Button
+        leftSection={<MdMailOutline size={14} />}
+        onClick={() => loginWithRedirect()}
+      >
+        Log in
+      </Button>
+    )
   }
 }
 
