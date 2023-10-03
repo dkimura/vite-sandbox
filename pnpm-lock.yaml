@@ -180,8 +180,8 @@ importers:
   packages/ui:
     dependencies:
       '@fontsource/noto-sans-jp':
-        specifier: 5.0.12
-        version: 5.0.12
+        specifier: 5.0.13
+        version: 5.0.13
       '@mantine/core':
         specifier: 7.1.2
         version: 7.1.2(@mantine/hooks@7.1.2)(@types/react@18.2.24)(react-dom@18.2.0)(react@18.2.0)
@@ -1867,8 +1867,8 @@ packages:
   /@floating-ui/utils@0.1.4:
     resolution: {integrity: sha512-qprfWkn82Iw821mcKofJ5Pk9wgioHicxcQMxx+5zt5GSKoqdWvgG5AxVmpmUUjzTLPVSH5auBrhI93Deayn/DA==}
 
-  /@fontsource/noto-sans-jp@5.0.12:
-    resolution: {integrity: sha512-nTU1hGFY8MoiMeLl9+wbl38NJyX3VcU9c9ITCMRUGxHHGruqmcolYRc5sOM1AoAqA81kJltpa7zOzEu/0jQa+g==}
+  /@fontsource/noto-sans-jp@5.0.13:
+    resolution: {integrity: sha512-EWnr9021r0YBVicaY/IpCIBOkBnc7ZeHJ3N8J3zIExAnI/VnnPvWGbxTAUy9Jp4mRKqFDwZneKBRCYBTyD+HbA==}
     dev: false
 
   /@generouted/react-router@1.15.9(react-router-dom@6.16.0)(react@18.2.0)(vite@4.4.9):
