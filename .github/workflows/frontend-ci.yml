@@ -14,6 +14,12 @@ jobs:
       - name: Checkout 🛎
         uses: actions/checkout@v4
 
+      - name: TurboRepo local server 💪
+        uses: felixmosh/turborepo-gh-artifacts@v2
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          server-token: ${{ secrets.TURBO_TOKEN }}
+
       - name: Setup pnpm 🧑‍💼
         uses: pnpm/action-setup@v2
         with:
@@ -31,8 +37,14 @@ jobs:
 
       - name: Run build 🤖
         run: pnpm build
+        env:
+          TURBO_API: 'http://127.0.0.1:9080'
+          TURBO_TOKEN: ${{ secrets.TURBO_TOKEN }}
+          TURBO_TEAM: 'startrack'
 
       - name: Run lint 👀
         run: pnpm lint
-
-
+        env:
+          TURBO_API: 'http://127.0.0.1:9080'
+          TURBO_TOKEN: ${{ secrets.TURBO_TOKEN }}
+          TURBO_TEAM: 'startrack'
