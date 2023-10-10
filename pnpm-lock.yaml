@@ -98,8 +98,8 @@ importers:
         version: 6.16.0(react-dom@18.2.0)(react@18.2.0)
     devDependencies:
       '@types/eslint':
-        specifier: 8.44.3
-        version: 8.44.3
+        specifier: 8.44.4
+        version: 8.44.4
       '@types/react':
         specifier: 18.2.27
         version: 18.2.27
@@ -4024,8 +4024,8 @@ packages:
     resolution: {integrity: sha512-AjwI4MvWx3HAOaZqYsjKWyEObT9lcVV0Y0V8nXo6cXzN8ZiMxVhf6F3d/UNvXVGKrEzL/Dluc5p+y9GkzlTWig==}
     dev: true
 
-  /@types/eslint@8.44.3:
-    resolution: {integrity: sha512-iM/WfkwAhwmPff3wZuPLYiHX18HI24jU8k1ZSH7P8FHwxTjZ2P6CoX2wnF43oprR+YXJM6UUxATkNvyv/JHd+g==}
+  /@types/eslint@8.44.4:
+    resolution: {integrity: sha512-lOzjyfY/D9QR4hY9oblZ76B90MYTB3RrQ4z2vBIJKj9ROCRqdkYl2gSUx1x1a4IWPjKJZLL4Aw1Zfay7eMnmnA==}
     dependencies:
       '@types/estree': 1.0.1
       '@types/json-schema': 7.0.13
