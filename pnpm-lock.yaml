@@ -183,11 +183,11 @@ importers:
         specifier: 5.0.16
         version: 5.0.16
       '@mantine/core':
-        specifier: 7.1.6
-        version: 7.1.6(@mantine/hooks@7.1.6)(@types/react@18.2.33)(react-dom@18.2.0)(react@18.2.0)
+        specifier: 7.1.7
+        version: 7.1.7(@mantine/hooks@7.1.7)(@types/react@18.2.33)(react-dom@18.2.0)(react@18.2.0)
       '@mantine/hooks':
-        specifier: 7.1.6
-        version: 7.1.6(react@18.2.0)
+        specifier: 7.1.7
+        version: 7.1.7(react@18.2.0)
     devDependencies:
       '@storybook/react':
         specifier: 7.5.1
@@ -2018,15 +2018,15 @@ packages:
     resolution: {integrity: sha512-dfLbk+PwWvFzSxwk3n5ySL0hfBog779o8h68wK/7/APo/7cgyWp5jcXockbxdk5kFRkbeXWm4Fbi9FrdN381sA==}
     dev: true
 
-  /@mantine/core@7.1.6(@mantine/hooks@7.1.6)(@types/react@18.2.33)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-9KjGeN0Glb0vKsTuOsvK1uE+BwDPXuaM3fLqyfpUfuQ/BYS4ygc9xbWsdwPw1O1DIjmDnEpgjN9svG+l8Xvw2g==}
+  /@mantine/core@7.1.7(@mantine/hooks@7.1.7)(@types/react@18.2.33)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-xi5zyzGRFDKXUp2WL63sQqzDPKP1Ezz1AIkQXHwpsGGxa4fVvzyn/CzgidnFUK93soWq7ixhVdD4oP1Yeh68Mw==}
     peerDependencies:
-      '@mantine/hooks': 7.1.6
+      '@mantine/hooks': 7.1.7
       react: ^18.2.0
       react-dom: ^18.2.0
     dependencies:
       '@floating-ui/react': 0.24.8(react-dom@18.2.0)(react@18.2.0)
-      '@mantine/hooks': 7.1.6(react@18.2.0)
+      '@mantine/hooks': 7.1.7(react@18.2.0)
       clsx: 2.0.0
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
@@ -2038,8 +2038,8 @@ packages:
       - '@types/react'
     dev: false
 
-  /@mantine/hooks@7.1.6(react@18.2.0):
-    resolution: {integrity: sha512-Yctcv21ttLYpcN/5gt2xCHB88U1rPNqHBkLVd7DMAB72LUkr4wp6xAVtELl576n7wHf36nshSkFCyNXh9Gm3eA==}
+  /@mantine/hooks@7.1.7(react@18.2.0):
+    resolution: {integrity: sha512-OwKK1CtZ++lRXcjqN3G1MiY4Ie0Cd+aGGjrzlSxO2JJnYLkPgAmQqO6HkwK6p7XOwMpRW0eJdh3r1ONkna8pSg==}
     peerDependencies:
       react: ^18.2.0
     dependencies:

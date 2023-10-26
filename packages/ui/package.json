@@ -28,8 +28,8 @@
   },
   "dependencies": {
     "@fontsource/noto-sans-jp": "5.0.16",
-    "@mantine/core": "7.1.6",
-    "@mantine/hooks": "7.1.6"
+    "@mantine/core": "7.1.7",
+    "@mantine/hooks": "7.1.7"
   },
   "peerDependencies": {
     "react": "^18.2.0",
