@@ -11,20 +11,20 @@
     "@dkimura/ui": "workspace:*"
   },
   "devDependencies": {
-    "@storybook/addon-essentials": "7.6.2",
-    "@storybook/addon-interactions": "7.6.2",
-    "@storybook/addon-links": "7.6.2",
+    "@storybook/addon-essentials": "7.6.3",
+    "@storybook/addon-interactions": "7.6.3",
+    "@storybook/addon-links": "7.6.3",
     "@storybook/addon-onboarding": "1.0.8",
-    "@storybook/blocks": "7.6.2",
-    "@storybook/react": "7.6.2",
-    "@storybook/react-vite": "7.6.2",
+    "@storybook/blocks": "7.6.3",
+    "@storybook/react": "7.6.3",
+    "@storybook/react-vite": "7.6.3",
     "@storybook/testing-library": "0.2.2",
     "@types/node": "20.10.1",
     "@types/react": "18.2.39",
     "@types/react-dom": "18.2.17",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "storybook": "7.6.2",
+    "storybook": "7.6.3",
     "typescript": "5.3.2"
   }
 }
