@@ -86,7 +86,7 @@ importers:
         version: link:../../packages/ui
       '@generouted/react-router':
         specifier: 1.18.2
-        version: 1.18.2(react-router-dom@6.21.2)(react@18.2.0)(vite@5.0.11)
+        version: 1.18.2(react-router-dom@6.21.3)(react@18.2.0)(vite@5.0.11)
       react:
         specifier: 18.2.0
         version: 18.2.0
@@ -94,8 +94,8 @@ importers:
         specifier: 18.2.0
         version: 18.2.0(react@18.2.0)
       react-router-dom:
-        specifier: 6.21.2
-        version: 6.21.2(react-dom@18.2.0)(react@18.2.0)
+        specifier: 6.21.3
+        version: 6.21.3(react-dom@18.2.0)(react@18.2.0)
     devDependencies:
       '@types/eslint':
         specifier: 8.56.2
@@ -2032,7 +2032,7 @@ packages:
     resolution: {integrity: sha512-dwgMf7lIkCeK8JtjpzQk8HW0Hh6ACiRTiVnKXS2+8mk5wngd9mQ63B9IgCaKkmjGmmLxVQp76gFiKUzDMP+uxw==}
     dev: false
 
-  /@generouted/react-router@1.18.2(react-router-dom@6.21.2)(react@18.2.0)(vite@5.0.11):
+  /@generouted/react-router@1.18.2(react-router-dom@6.21.3)(react@18.2.0)(vite@5.0.11):
     resolution: {integrity: sha512-HyYgyfsEhUrAS52mtWiUPlW+QV8FVzpQhgvn51aj7htVV6mzr+Y87qOxQJs+mgI2SUTwF3OBrbAmW1irR6LaXA==}
     peerDependencies:
       react: '>=18'
@@ -2042,7 +2042,7 @@ packages:
       fast-glob: 3.3.2
       generouted: 1.18.2(vite@5.0.11)
       react: 18.2.0
-      react-router-dom: 6.21.2(react-dom@18.2.0)(react@18.2.0)
+      react-router-dom: 6.21.3(react-dom@18.2.0)(react@18.2.0)
       vite: 5.0.11
     dev: false
 
@@ -7913,8 +7913,8 @@ packages:
       use-sidecar: 1.1.2(@types/react@18.2.48)(react@18.2.0)
     dev: false
 
-  /react-router-dom@6.21.2(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-tE13UukgUOh2/sqYr6jPzZTzmzc70aGRP4pAjG2if0IP3aUT+sBtAKUJh0qMh0zylJHGLmzS+XWVaON4UklHeg==}
+  /react-router-dom@6.21.3(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-kNzubk7n4YHSrErzjLK72j0B5i969GsuCGazRl3G6j1zqZBLjuSlYBdVdkDOgzGdPIffUOc9nmgiadTEVoq91g==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       react: '>=16.8'
@@ -7923,11 +7923,11 @@ packages:
       '@remix-run/router': 1.14.2
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
-      react-router: 6.21.2(react@18.2.0)
+      react-router: 6.21.3(react@18.2.0)
     dev: false
 
-  /react-router@6.21.2(react@18.2.0):
-    resolution: {integrity: sha512-jJcgiwDsnaHIeC+IN7atO0XiSRCrOsQAHHbChtJxmgqG2IaYQXSnhqGb5vk2CU/wBQA12Zt+TkbuJjIn65gzbA==}
+  /react-router@6.21.3(react@18.2.0):
+    resolution: {integrity: sha512-a0H638ZXULv1OdkmiK6s6itNhoy33ywxmUFT/xtSoVyf9VnC7n7+VT4LjVzdIHSaF5TIh9ylUgxMXksHTgGrKg==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       react: '>=16.8'
