@@ -86,7 +86,7 @@ importers:
         version: link:../../packages/ui
       '@generouted/react-router':
         specifier: 1.18.2
-        version: 1.18.2(react-router-dom@6.22.0)(react@18.2.0)(vite@5.1.2)
+        version: 1.18.2(react-router-dom@6.22.0)(react@18.2.0)(vite@5.1.3)
       react:
         specifier: 18.2.0
         version: 18.2.0
@@ -114,10 +114,10 @@ importers:
         version: 7.0.1(eslint@8.56.0)(typescript@5.3.3)
       '@vitejs/plugin-react':
         specifier: 4.2.1
-        version: 4.2.1(vite@5.1.2)
+        version: 4.2.1(vite@5.1.3)
       '@vitejs/plugin-react-swc':
         specifier: 3.6.0
-        version: 3.6.0(vite@5.1.2)
+        version: 3.6.0(vite@5.1.3)
       eslint:
         specifier: 8.56.0
         version: 8.56.0
@@ -131,8 +131,8 @@ importers:
         specifier: 5.3.3
         version: 5.3.3
       vite:
-        specifier: 5.1.2
-        version: 5.1.2
+        specifier: 5.1.3
+        version: 5.1.3
 
   packages/icons:
     dependencies:
@@ -154,7 +154,7 @@ importers:
         version: 7.0.1(eslint@8.56.0)(typescript@5.3.3)
       '@vitejs/plugin-react':
         specifier: 4.2.1
-        version: 4.2.1(vite@5.1.2)
+        version: 4.2.1(vite@5.1.3)
       eslint:
         specifier: 8.56.0
         version: 8.56.0
@@ -174,8 +174,8 @@ importers:
         specifier: 5.3.3
         version: 5.3.3
       vite:
-        specifier: 5.1.2
-        version: 5.1.2
+        specifier: 5.1.3
+        version: 5.1.3
 
   packages/ui:
     dependencies:
@@ -206,7 +206,7 @@ importers:
         version: 7.0.1(eslint@8.56.0)(typescript@5.3.3)
       '@vitejs/plugin-react-swc':
         specifier: 3.6.0
-        version: 3.6.0(vite@5.1.2)
+        version: 3.6.0(vite@5.1.3)
       eslint:
         specifier: 8.56.0
         version: 8.56.0
@@ -223,11 +223,11 @@ importers:
         specifier: 5.3.3
         version: 5.3.3
       vite:
-        specifier: 5.1.2
-        version: 5.1.2
+        specifier: 5.1.3
+        version: 5.1.3
       vite-plugin-dts:
         specifier: 3.7.2
-        version: 3.7.2(typescript@5.3.3)(vite@5.1.2)
+        version: 3.7.2(typescript@5.3.3)(vite@5.1.3)
 
 packages:
 
@@ -2032,7 +2032,7 @@ packages:
     resolution: {integrity: sha512-dwgMf7lIkCeK8JtjpzQk8HW0Hh6ACiRTiVnKXS2+8mk5wngd9mQ63B9IgCaKkmjGmmLxVQp76gFiKUzDMP+uxw==}
     dev: false
 
-  /@generouted/react-router@1.18.2(react-router-dom@6.22.0)(react@18.2.0)(vite@5.1.2):
+  /@generouted/react-router@1.18.2(react-router-dom@6.22.0)(react@18.2.0)(vite@5.1.3):
     resolution: {integrity: sha512-HyYgyfsEhUrAS52mtWiUPlW+QV8FVzpQhgvn51aj7htVV6mzr+Y87qOxQJs+mgI2SUTwF3OBrbAmW1irR6LaXA==}
     peerDependencies:
       react: '>=18'
@@ -2040,10 +2040,10 @@ packages:
       vite: '>=4'
     dependencies:
       fast-glob: 3.3.2
-      generouted: 1.18.2(vite@5.1.2)
+      generouted: 1.18.2(vite@5.1.3)
       react: 18.2.0
       react-router-dom: 6.22.0(react-dom@18.2.0)(react@18.2.0)
-      vite: 5.1.2
+      vite: 5.1.3
     dev: false
 
   /@humanwhocodes/config-array@0.11.14:
@@ -4398,13 +4398,13 @@ packages:
     resolution: {integrity: sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ==}
     dev: true
 
-  /@vitejs/plugin-react-swc@3.6.0(vite@5.1.2):
+  /@vitejs/plugin-react-swc@3.6.0(vite@5.1.3):
     resolution: {integrity: sha512-XFRbsGgpGxGzEV5i5+vRiro1bwcIaZDIdBRP16qwm+jP68ue/S8FJTBEgOeojtVDYrbSua3XFp71kC8VJE6v+g==}
     peerDependencies:
       vite: ^4 || ^5
     dependencies:
       '@swc/core': 1.4.0
-      vite: 5.1.2
+      vite: 5.1.3
     transitivePeerDependencies:
       - '@swc/helpers'
     dev: true
@@ -4425,7 +4425,7 @@ packages:
       - supports-color
     dev: true
 
-  /@vitejs/plugin-react@4.2.1(vite@5.1.2):
+  /@vitejs/plugin-react@4.2.1(vite@5.1.3):
     resolution: {integrity: sha512-oojO9IDc4nCUUi8qIR11KoQm0XFFLIwsRBwHRR4d/88IWghn1y6ckz/bJ8GHDCsYEJee8mDzqtJxh15/cisJNQ==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
@@ -4436,7 +4436,7 @@ packages:
       '@babel/plugin-transform-react-jsx-source': 7.23.3(@babel/core@7.23.9)
       '@types/babel__core': 7.20.5
       react-refresh: 0.14.0
-      vite: 5.1.2
+      vite: 5.1.3
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -6034,12 +6034,12 @@ packages:
     resolution: {integrity: sha512-xckBUXyTIqT97tq2x2AMb+g163b5JFysYk0x4qxNFwbfQkmNZoiRHb6sPzI9/QV33WeuvVYBUIiD4NzNIyqaRQ==}
     dev: true
 
-  /generouted@1.18.2(vite@5.1.2):
+  /generouted@1.18.2(vite@5.1.3):
     resolution: {integrity: sha512-cYTSewf2Us8V+TCFUQbLTGVC6yo7ZFO0Gig2/Q+mIgKQBPJ5iaccTK/sCSj9U2cITJJQvTUnCtqdhr8zXCO89g==}
     peerDependencies:
       vite: '>=3'
     dependencies:
-      vite: 5.1.2
+      vite: 5.1.3
     dev: false
 
   /gensync@1.0.0-beta.2:
@@ -9049,7 +9049,7 @@ packages:
     engines: {node: '>= 0.8'}
     dev: true
 
-  /vite-plugin-dts@3.7.2(typescript@5.3.3)(vite@5.1.2):
+  /vite-plugin-dts@3.7.2(typescript@5.3.3)(vite@5.1.3):
     resolution: {integrity: sha512-kg//1nDA01b8rufJf4TsvYN8LMkdwv0oBYpiQi6nRwpHyue+wTlhrBiqgipdFpMnW1oOYv6ywmzE5B0vg6vSEA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
@@ -9065,7 +9065,7 @@ packages:
       debug: 4.3.4
       kolorist: 1.8.0
       typescript: 5.3.3
-      vite: 5.1.2
+      vite: 5.1.3
       vue-tsc: 1.8.27(typescript@5.3.3)
     transitivePeerDependencies:
       - '@types/node'
@@ -9109,8 +9109,8 @@ packages:
       fsevents: 2.3.3
     dev: true
 
-  /vite@5.1.2:
-    resolution: {integrity: sha512-uwiFebQbTWRIGbCaTEBVAfKqgqKNKMJ2uPXsXeLIZxM8MVMjoS3j0cG8NrPxdDIadaWnPSjrkLWffLSC+uiP3Q==}
+  /vite@5.1.3:
+    resolution: {integrity: sha512-UfmUD36DKkqhi/F75RrxvPpry+9+tTkrXfMNZD+SboZqBCMsxKtO52XeGzzuh7ioz+Eo/SYDBbdb0Z7vgcDJew==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
     peerDependencies:
