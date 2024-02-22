@@ -136,5 +136,5 @@ dist
 auth0.config.json
 packages/auth0/local
 
-# generouted
-apps/vite/src/router.ts
+# turbo
+.turbo
