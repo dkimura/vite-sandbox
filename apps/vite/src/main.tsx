@@ -1,23 +1,26 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { Auth0Provider } from '@auth0/auth0-react'
 import { Routes } from '@generouted/react-router'
 import { Provider } from '@dkimura/ui'
 
 import '@dkimura/ui/style.css'
 
+import { setupWorker } from 'msw/browser'
+
+import { QueryClientProvider, QueryClient } from '@tanstack/react-query'
+import { getTaskMock } from './__generated__/task/task.msw'
+
+const queryClient = new QueryClient()
+
+const worker = setupWorker(...getTaskMock())
+await worker.start()
+
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
     <Provider>
-      <Auth0Provider
-        domain={import.meta.env.VITE_AUTH0_DOMAIN}
-        clientId={import.meta.env.VITE_AUTH0_CLIENT_ID}
-        authorizationParams={{
-          redirect_uri: window.location.origin,
-        }}
-      >
+      <QueryClientProvider client={queryClient}>
         <Routes />
-      </Auth0Provider>
+      </QueryClientProvider>
     </Provider>
   </React.StrictMode>
 )

@@ -1,35 +1,28 @@
-import { Button } from '@dkimura/ui'
-import { useAuth0 } from '@auth0/auth0-react'
-import { MdMailOutline } from '@dkimura/icons'
+import { Checkbox, Container, Skeleton, Stack, Title } from '@dkimura/ui'
+
+import { useTasksGetAll } from '../__generated__/task/task'
 
 const Home = () => {
-  const { isLoading, isAuthenticated, error, user, loginWithRedirect, logout } =
-    useAuth0()
+  const { data, isLoading } = useTasksGetAll()
 
-  if (isLoading) {
-    return <div>Loading...</div>
-  }
-
-  if (error) {
-    return <div>Oops... {error.message}</div>
-  }
-
-  if (isAuthenticated) {
-    return (
-      <div>
-        Hello {user?.name} <button onClick={() => logout()}>Log out</button>
-      </div>
-    )
-  } else {
-    return (
-      <Button
-        leftSection={<MdMailOutline size={14} />}
-        onClick={() => loginWithRedirect()}
-      >
-        Log in
-      </Button>
-    )
-  }
+  return (
+    <Container size="xs">
+      <Stack>
+        <Title>Tasks</Title>
+        <Skeleton visible={isLoading} h="8">
+          <Stack>
+            {data?.data.map((task) => (
+              <Checkbox
+                key={task.id}
+                checked={task.completed}
+                label={task.description}
+              />
+            ))}
+          </Stack>
+        </Skeleton>
+      </Stack>
+    </Container>
+  )
 }
 
 export default Home
