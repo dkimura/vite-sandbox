@@ -6,7 +6,7 @@ import dts from 'vite-plugin-dts'
 export default defineConfig({
   build: {
     lib: {
-      entry: ['src/index.tsx', 'src/hooks.ts'],
+      entry: ['src/index.tsx', 'src/hooks.ts', 'src/notifications.ts'],
     },
     rollupOptions: {
       external: ['react', 'react-dom'],
