@@ -2,6 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { Routes } from '@generouted/react-router'
 import { Provider } from '@dkimura/ui'
+import { notifications } from '@dkimura/ui/notifications'
 import { QueryClientProvider, QueryClient } from '@tanstack/react-query'
 
 import '@dkimura/ui/style.css'
@@ -13,7 +14,17 @@ const enableMocking = async () => {
   }
 }
 
-const queryClient = new QueryClient()
+const queryClient = new QueryClient({
+  defaultOptions: {
+    mutations: {
+      onError: (error) =>
+        notifications.show({
+          color: 'red',
+          message: error.message,
+        }),
+    },
+  },
+})
 
 enableMocking().then(() => {
   ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
