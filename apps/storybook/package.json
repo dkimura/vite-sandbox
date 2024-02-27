@@ -20,7 +20,7 @@
     "@storybook/react-vite": "7.6.17",
     "@storybook/testing-library": "0.2.2",
     "@types/node": "20.11.20",
-    "@types/react": "18.2.59",
+    "@types/react": "18.2.60",
     "@types/react-dom": "18.2.19",
     "react": "18.2.0",
     "react-dom": "18.2.0",
