@@ -52,8 +52,7 @@ jobs:
     steps:
       # Checkout the code as the first step.
       - checkout
-      - run:
-          command: docker -v
+      - setup_remote_docker
       - run:
           name: Install Java Runtime
           command: |
