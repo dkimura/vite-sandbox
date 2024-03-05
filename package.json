@@ -7,7 +7,7 @@
     "build": "turbo build",
     "codegen": "turbo codegen",
     "dev": "turbo dev",
-    "lint": "turbo lint"
+    "lint": "turbo lint type-check"
   },
   "devDependencies": {
     "husky": "9.0.11",
