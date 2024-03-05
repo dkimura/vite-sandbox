@@ -2,6 +2,9 @@
 # See: https://circleci.com/docs/configuration-reference
 version: 2.1
 
+orbs:
+  vm-install-tools: entur/vm-install-tools@1.1.0
+
 commands:
   cmd_install:
     steps:
@@ -52,9 +55,7 @@ jobs:
     steps:
       # Checkout the code as the first step.
       - checkout
-      - run:
-          name: Install Docker client
-          command: apk add docker-cli
+      - install-java17
       - cmd_install
       - cmd_codegen
       - cmd_lint
