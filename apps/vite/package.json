@@ -5,9 +5,10 @@
   "type": "module",
   "scripts": {
     "build": "tsc && vite build",
-    "codegen": "orval",
+    "codegen": "orval && openapi-generator-cli generate",
     "dev": "vite",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "type-check": "tsc --noEmit",
     "preview": "vite preview"
   },
   "dependencies": {
