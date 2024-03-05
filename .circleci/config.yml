@@ -55,7 +55,7 @@ jobs:
       - run:
           name: Install Java Runtime
           command: |
-            apt-get update && apt-get install -y openjdk-11-jdk
+            sudo apt-get update && sudo apt-get install -y openjdk-11-jdk
       - cmd_install
       - cmd_codegen
       - cmd_lint
