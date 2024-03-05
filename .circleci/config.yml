@@ -28,13 +28,13 @@ commands:
       - run:
           name: Generate Code from OpenAPI Schema
           command: |
-            pnpm run generate
+            pnpm codegen
   cmd_lint:
     steps:
       - run:
           name: Lint
           command: |
-            pnpm run lint
+            pnpm lint
 
 # Define a job to be invoked later in a workflow.
 # See: https://circleci.com/docs/jobs-steps/#jobs-overview & https://circleci.com/docs/configuration-reference/#jobs
