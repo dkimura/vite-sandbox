@@ -53,6 +53,7 @@ jobs:
       # Checkout the code as the first step.
       - checkout
       - cmd_install
+      - cmd_codegen
       - cmd_lint
 
 # Orchestrate jobs using workflows
