@@ -25,7 +25,6 @@ commands:
             - .pnpm-store
   cmd_codegen:
     steps:
-      - setup_remote_docker
       - run:
           name: Generate Code from OpenAPI Schema
           command: |
@@ -53,6 +52,7 @@ jobs:
     steps:
       # Checkout the code as the first step.
       - checkout
+      - setup_remote_docker
       - cmd_install
       - cmd_codegen
       - cmd_lint
