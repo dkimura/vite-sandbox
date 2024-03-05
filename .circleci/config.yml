@@ -53,10 +53,6 @@ jobs:
       # Checkout the code as the first step.
       - checkout
       - setup_remote_docker
-      - run:
-          name: Install Java Runtime
-          command: |
-            sudo apt-get update && sudo apt-get install -y docker-ce docker-ce-cli containerd.io
       - cmd_install
       - cmd_codegen
       - cmd_lint
