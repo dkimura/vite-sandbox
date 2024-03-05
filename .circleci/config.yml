@@ -12,7 +12,7 @@ commands:
       - run:
           name: Install pnpm package manager
           command: |
-            corepack enable pnpm
+            corepack enable --install-directory ~/bin
             pnpm config set store-dir .pnpm-store
       - run:
           name: Install Dependencies
