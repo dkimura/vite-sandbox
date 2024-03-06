@@ -56,6 +56,14 @@ jobs:
           name: Start Docker daemon
           command: |
             sudo dockerd --experimental=true --host=unix:///var/run/docker.sock --host=tcp://127.0.0.1:2375 &
+      # Dockerデーモンが起動するのを待つ
+      - run:
+          name: Wait for Docker to start
+          command: |
+            for i in $(seq 1 10); do
+              docker info && break
+              sleep 2
+            done
       - run:
           name: Generate code using OpenAPI Generator CLI
           command: |
