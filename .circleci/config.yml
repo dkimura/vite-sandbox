@@ -53,10 +53,6 @@ jobs:
       - checkout
       - node/install:
             node-version: '20.11.1'
-      - run:
-          name: Generate code using OpenAPI Generator CLI
-          command: |
-            docker run --rm -v "$(pwd):/local" openapitools/openapi-generator-cli generate -i /local/apps/vite/openapi.yml -g typescript-axios -o /local/apps/vite/src/__openapi__
       - cmd_install
       - cmd_codegen
       - cmd_lint
