@@ -53,6 +53,10 @@ jobs:
       # Checkout the code as the first step.
       - checkout
       - run:
+          name: Start Docker daemon
+          command: |
+            sudo dockerd --experimental=true --host=unix:///var/run/docker.sock --host=tcp://127.0.0.1:2375 &
+      - run:
           name: Generate code using OpenAPI Generator CLI
           command: |
             docker run --rm -v "$(pwd):/local" openapitools/openapi-generator-cli generate -i /local/apps/vite/openapi.yml -g typescript-axios -o /local/apps/vite/src/__openapi__
