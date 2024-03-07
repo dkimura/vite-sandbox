@@ -5,9 +5,10 @@
   "type": "module",
   "scripts": {
     "build": "tsc && vite build",
-    "codegen": "orval",
+    "codegen": "orval && openapi-generator-cli generate",
     "dev": "vite",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "type-check": "tsc --noEmit",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -23,6 +24,7 @@
   },
   "devDependencies": {
     "@faker-js/faker": "8.4.1",
+    "@openapitools/openapi-generator-cli": "2.10.0",
     "@types/eslint": "8.56.5",
     "@types/react": "18.2.62",
     "@types/react-dom": "18.2.19",
