@@ -12,6 +12,7 @@ jobs:
       - name: Check discussion category
         run: |
           echo ${{ github.event.discussion.category.id }}
+          echo ${{ github.event.discussion.category.node_id }}
           echo ${{ github.event.discussion.category.name }}
           echo ${{ github.event.discussion.category.slug }}
           echo ${{ github.event.discussion.category.description }}
