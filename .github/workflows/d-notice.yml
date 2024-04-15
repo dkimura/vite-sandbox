@@ -26,7 +26,7 @@ jobs:
         with:
           payload: |
             {
-              "text": "New comment on <${{env.DISCUSSION_URL}}|${{env.DISCUSSION_TITLE}}>",
+              "text": "New comment on <${{env.COMMENT_URL}}|${{env.DISCUSSION_TITLE}}>",
               "blocks": [
                 {
                   "type": "section",
@@ -41,6 +41,20 @@ jobs:
                     "type": "mrkdwn",
                     "text": "${{env.COMMENT_BODY}}"
                   }
+                },
+                {
+                  "type": "context",
+                  "elements": [
+                    {
+                      "type": "image",
+                      "image_url": "${{env.USER_AVATAR_URL}}",
+                      "alt_text": "${{env.USER_NAME}}"
+                    },
+                    {
+                      "type": "mrkdwn",
+                      "text": "${{env.USER_NAME}}"
+                    }
+                  ]
                 }
               ]
             }
