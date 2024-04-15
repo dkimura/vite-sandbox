@@ -26,15 +26,17 @@ jobs:
         with:
           payload: |
             {
-              "fallback": "New comment on <${{env.DISCUSSION_URL}}|${{env.DISCUSSION_TITLE}}>",
-              "text": "New comment on <${{env.DISCUSSION_URL}}|${{env.DISCUSSION_TITLE}}>",
-              "color": "#e85c28",
-              "fields":[
-                {
-                  "title": "<${{env.COMMENT_URL}}|Comment>",
-                  "value": "${{env.COMMENT_BODY}}",
-                  "short": false
-                }
+              "attachments":[
+                "fallback": "New comment on <${{env.DISCUSSION_URL}}|${{env.DISCUSSION_TITLE}}>",
+                "text": "New comment on <${{env.DISCUSSION_URL}}|${{env.DISCUSSION_TITLE}}>",
+                "color": "#e85c28",
+                "fields":[
+                  {
+                    "title": "<${{env.COMMENT_URL}}|Comment>",
+                    "value": "${{env.COMMENT_BODY}}",
+                    "short": false
+                  }
+                ]
               ]
             }
         env:
