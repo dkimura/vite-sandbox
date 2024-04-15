@@ -26,25 +26,32 @@ jobs:
         with:
           payload: |
             {
-              "blocks":[
-                {
-                  "type": "context",
-                  "elements": [
-                    {
-                      "type": "mrkdwn",
-                      "text": "New comment on <${{env.DISCUSSION_TITLE}}|${{env.DISCUSSION_URL}}>"
-                    },
-                    {
-                      "type": "mrkdwn",
-                      "text": "by <${{env.USER_URL}}|${{env.USER_NAME}}>"
-                    },
-                    {
-                      "type": "image",
-                      "image_url": "${{env.USER_AVATAR_URL}}",
-                      "alt_text": "${{env.USER_NAME}}"
-                    }
-                  ]
-                }
+              "text": "New comment on <${{env.DISCUSSION_TITLE}}|${{env.DISCUSSION_URL}}>",
+              "attachments":[
+                "blocks":[
+                  {
+                    "type": "context",
+                    "elements": [
+                      {
+                        "type": "mrkdwn",
+                        "text": "${{env.COMMENT_BODY}}"
+                      },
+                      {
+                        "type": "mrkdwn",
+                        "text": "<${{env.COMMENT_URL}}|View Comment>"
+                      },
+                      {
+                        "type": "mrkdwn",
+                        "text": "by <${{env.USER_URL}}|${{env.USER_NAME}}>"
+                      },
+                      {
+                        "type": "image",
+                        "image_url": "${{env.USER_AVATAR_URL}}",
+                        "alt_text": "${{env.USER_NAME}}"
+                      }
+                    ]
+                  }
+                ]
               ]
             }
         env:
