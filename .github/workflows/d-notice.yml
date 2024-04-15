@@ -46,3 +46,4 @@ jobs:
           USER_NAME: ${{ github.event.comment.user.login }}
           USER_AVATAR_URL: ${{ github.event.comment.user.avatar_url }}
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          SLACK_WEBHOOK_TYPE: INCOMING_WEBHOOK
