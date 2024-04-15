@@ -8,6 +8,9 @@ jobs:
   discussion_commented:
     runs-on: ubuntu-latest
 
+    env:
+      CATEGORY_ID: DIC_kwDOJODuLs4Ces82
+
     steps:
       - name: Check discussion category
         run: |
@@ -16,3 +19,40 @@ jobs:
           echo ${{ github.event.discussion.category.name }}
           echo ${{ github.event.discussion.category.slug }}
           echo ${{ github.event.discussion.category.description }}
+
+      - name: Notify Discussion Comment for Frontend
+        uses: slackapi/slack-github-action@v1.23.0
+        if: github.event.discussion.category.node_id == env.CATEGORY_ID
+        with:
+          payload: |
+            {
+              "blocks":[
+                {
+                  "type":"section",
+                  "text":{
+                    "type":"mrkdwn",
+                    "text":"New comment by <${{ env.USER_URL }}|${{ env.USER_NAME }}>"
+                  }
+                }
+              ],
+              "attachments":[
+                {
+                  "blocks":[
+                    {
+                      "type":"section",
+                      "text":{
+                        "type":"mrkdwn",
+                        "text":"<${{env.COMMENT_BODY}}>"
+                      }
+                    }
+                  ]
+                }
+              ],
+            }
+        env:
+          DISCUSSION_TITLE: ${{ github.event.discussion.title }}
+          COMMENT_URL: ${{ github.event.comment.html_url }}
+          COMMENT_BODY: ${{ github.event.comment.body }}
+          USER_URL: ${{ github.event.comment.user.html_url }}
+          USER_NAME: ${{ github.event.comment.user.login }}
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
