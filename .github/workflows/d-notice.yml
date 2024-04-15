@@ -32,6 +32,13 @@ jobs:
                   "type": "section",
                   "text": {
                     "type": "mrkdwn",
+                    "text": "New comment on <${{env.DISCUSSION_URL}}|${{env.DISCUSSION_TITLE}}>"
+                  }
+                },
+                {
+                  "type": "section",
+                  "text": {
+                    "type": "mrkdwn",
                     "text": "${{env.COMMENT_BODY}}"
                   }
                 }
