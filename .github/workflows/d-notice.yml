@@ -28,22 +28,20 @@ jobs:
             {
               "blocks":[
                 {
-                  "type":"section",
-                  "text":{
-                    "type":"mrkdwn",
-                    "text":"New comment by <${{ env.USER_URL }}|${{ env.USER_NAME }}>"
-                  }
-                }
-              ],
-              "attachments":[
-                {
-                  "blocks":[
+                  "type": "context",
+                  "elements": [
                     {
-                      "type":"section",
-                      "text":{
-                        "type":"mrkdwn",
-                        "text":"<${{env.COMMENT_BODY}}>"
-                      }
+                      "type": "mrkdwn",
+                      "text": "New comment on <${{env.DISCUSSION_TITLE}}|${{env.DISCUSSION_URL}}>"
+                    },
+                    {
+                      "type": "mrkdwn",
+                      "text": "by <${{env.USER_URL}}|${{env.USER_NAME}}>"
+                    },
+                    {
+                      "type": "image",
+                      "image_url": "${{env.USER_AVATAR_URL}}",
+                      "alt_text": "${{env.USER_NAME}}"
                     }
                   ]
                 }
@@ -51,8 +49,10 @@ jobs:
             }
         env:
           DISCUSSION_TITLE: ${{ github.event.discussion.title }}
+          DISCUSSION_URL: ${{ github.event.discussion.html_url }}
           COMMENT_URL: ${{ github.event.comment.html_url }}
           COMMENT_BODY: ${{ github.event.comment.body }}
           USER_URL: ${{ github.event.comment.user.html_url }}
           USER_NAME: ${{ github.event.comment.user.login }}
+          USER_AVATAR_URL: ${{ github.event.comment.user.avatar_url }}
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
