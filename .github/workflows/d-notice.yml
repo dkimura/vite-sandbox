@@ -32,7 +32,7 @@ jobs:
                   "type": "section",
                   "text": {
                     "type": "mrkdwn",
-                    "text": "New comment on <${{env.DISCUSSION_URL}}|${{env.DISCUSSION_TITLE}}>"
+                    "text": "New comment on <${{env.DISCUSSION_URL}}|${{env.DISCUSSION_TITLE}}> by <${{env.USER_URL}}|${{env.USER_NAME}}>"
                   }
                 },
                 {
