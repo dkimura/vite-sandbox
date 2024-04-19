@@ -21,7 +21,7 @@ jobs:
           echo ${{ github.event.discussion.category.description }}
 
       - name: Notify Discussion Comment for Frontend
-        uses: slackapi/slack-github-action@v1.25.0
+        uses: slackapi/slack-github-action@v1.26.0
         if: github.event.discussion.category.node_id == env.CATEGORY_ID
         with:
           payload: |
