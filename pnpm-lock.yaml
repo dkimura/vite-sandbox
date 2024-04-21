@@ -107,8 +107,8 @@ importers:
         specifier: 8.4.1
         version: 8.4.1
       '@openapitools/openapi-generator-cli':
-        specifier: 2.13.2
-        version: 2.13.2
+        specifier: 2.13.3
+        version: 2.13.3
       '@types/eslint':
         specifier: 8.56.10
         version: 8.56.10
@@ -1495,8 +1495,8 @@ packages:
   '@open-draft/until@2.1.0':
     resolution: {integrity: sha512-U69T3ItWHvLwGg5eJ0n3I62nWuE6ilHlmz7zM0npLBRvPRd7e6NYmg54vvRtP5mZG7kZqZCFVdsTWo7BPtBujg==}
 
-  '@openapitools/openapi-generator-cli@2.13.2':
-    resolution: {integrity: sha512-Zxq1KQpxqZe55xSUAebY7RSKo1EgPFS37KY74skJRpicDyn/xg+2r0xB30UfE6WRGqaK2YJaJn0GPKbS2pwI1Q==}
+  '@openapitools/openapi-generator-cli@2.13.3':
+    resolution: {integrity: sha512-dPTWr4f73xYhA+fjz3kay5yt+AxcpK78toWe2oAnsQAXqC1ulP1/35zurFNQWgju2pW1gR1udhr/ZqB4LrqlIA==}
     engines: {node: '>=10.0.0'}
     hasBin: true
 
@@ -2481,9 +2481,6 @@ packages:
   available-typed-arrays@1.0.7:
     resolution: {integrity: sha512-wvUjBtSGN7+7SjNpq/9M2Tg350UZD3q62IFZLbRAR1bSMlCo1ZaeW+BJ+D090e4hIIZLBcTDWe4Mh4jvUDajzQ==}
     engines: {node: '>= 0.4'}
-
-  axios@1.6.5:
-    resolution: {integrity: sha512-Ii012v05KEVuUoFWmMW/UQv9aRIc3ZwkWDcM+h5Il8izZCtRVpDUfwpoFf7eOtajT3QiGR4yDUx7lPqHJULgbg==}
 
   axios@1.6.8:
     resolution: {integrity: sha512-v/ZHtJDU39mDpyBoFVkETcd/uNdxrWRrg3bKpOKzXFA6Bvqopts6ALSMU3y6ijYxbw2B+wPrIv46egTzJXCLGQ==}
@@ -6717,10 +6714,10 @@ snapshots:
       pump: 3.0.0
       tar-fs: 2.1.1
 
-  '@nestjs/axios@3.0.1(@nestjs/common@10.3.0(reflect-metadata@0.1.13)(rxjs@7.8.1))(axios@1.6.5)(reflect-metadata@0.1.13)(rxjs@7.8.1)':
+  '@nestjs/axios@3.0.1(@nestjs/common@10.3.0(reflect-metadata@0.1.13)(rxjs@7.8.1))(axios@1.6.8)(reflect-metadata@0.1.13)(rxjs@7.8.1)':
     dependencies:
       '@nestjs/common': 10.3.0(reflect-metadata@0.1.13)(rxjs@7.8.1)
-      axios: 1.6.5
+      axios: 1.6.8
       reflect-metadata: 0.1.13
       rxjs: 7.8.1
 
@@ -6775,13 +6772,13 @@ snapshots:
 
   '@open-draft/until@2.1.0': {}
 
-  '@openapitools/openapi-generator-cli@2.13.2':
+  '@openapitools/openapi-generator-cli@2.13.3':
     dependencies:
-      '@nestjs/axios': 3.0.1(@nestjs/common@10.3.0(reflect-metadata@0.1.13)(rxjs@7.8.1))(axios@1.6.5)(reflect-metadata@0.1.13)(rxjs@7.8.1)
+      '@nestjs/axios': 3.0.1(@nestjs/common@10.3.0(reflect-metadata@0.1.13)(rxjs@7.8.1))(axios@1.6.8)(reflect-metadata@0.1.13)(rxjs@7.8.1)
       '@nestjs/common': 10.3.0(reflect-metadata@0.1.13)(rxjs@7.8.1)
       '@nestjs/core': 10.3.0(@nestjs/common@10.3.0(reflect-metadata@0.1.13)(rxjs@7.8.1))(reflect-metadata@0.1.13)(rxjs@7.8.1)
       '@nuxtjs/opencollective': 0.3.2
-      axios: 1.6.5
+      axios: 1.6.8
       chalk: 4.1.2
       commander: 8.3.0
       compare-versions: 4.1.4
@@ -8362,14 +8359,6 @@ snapshots:
   available-typed-arrays@1.0.7:
     dependencies:
       possible-typed-array-names: 1.0.0
-
-  axios@1.6.5:
-    dependencies:
-      follow-redirects: 1.15.6
-      form-data: 4.0.0
-      proxy-from-env: 1.1.0
-    transitivePeerDependencies:
-      - debug
 
   axios@1.6.8:
     dependencies:
