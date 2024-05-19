@@ -30,7 +30,7 @@ jobs:
         id: my-script
         with:
           result-encoding: string
-          script: return "${{ github.event.comment.body }}"
+          script: return `${{ github.event.comment.body }}`
 
       - name: Debug
         run: echo "${{ steps.my-script.outputs.result }}"
