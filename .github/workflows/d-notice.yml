@@ -54,7 +54,7 @@ jobs:
                   "type": "section",
                   "text": {
                     "type": "mrkdwn",
-                    "text": "${{env.COMMENT_BODY}}"
+                    "text": "${{steps.my-script.outputs.result}}"
                   }
                 },
                 {
