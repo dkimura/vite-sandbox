@@ -26,15 +26,6 @@ jobs:
           echo ${{ github.event.comment.user.login }}
           echo ${{ github.event.comment.user.avatar_url }}
 
-      - uses: actions/github-script@v7
-        id: my-script
-        with:
-          result-encoding: string
-          script: return JSON.stringify(`${{ github.event.comment.body }}`)
-
-      - name: Debug
-        run: echo "${{ steps.my-script.outputs.result }}"
-
       - name: Notify Discussion Comment for Frontend
         uses: slackapi/slack-github-action@v1.26.0
         if: github.event.discussion.category.node_id == env.CATEGORY_ID
@@ -54,7 +45,7 @@ jobs:
                   "type": "section",
                   "text": {
                     "type": "mrkdwn",
-                    "text": ${{steps.my-script.outputs.result}}
+                    "text": ${{toJSON(env.COMMENT_BODY)}}
                   }
                 },
                 {
