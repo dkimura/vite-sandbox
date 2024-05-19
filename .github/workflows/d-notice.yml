@@ -22,7 +22,6 @@ jobs:
           echo ${{ github.event.discussion.title }}
           echo ${{ github.event.discussion.html_url }}
           echo ${{ github.event.comment.html_url }}
-          echo ${{ github.event.comment.body }}
           echo ${{ github.event.comment.user.html_url }}
           echo ${{ github.event.comment.user.login }}
           echo ${{ github.event.comment.user.avatar_url }}
