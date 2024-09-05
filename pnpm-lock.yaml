@@ -104,8 +104,8 @@ importers:
         version: 6.26.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
     devDependencies:
       '@faker-js/faker':
-        specifier: 8.4.1
-        version: 8.4.1
+        specifier: 9.0.0
+        version: 9.0.0
       '@openapitools/openapi-generator-cli':
         specifier: 2.13.5
         version: 2.13.5
@@ -1227,9 +1227,9 @@ packages:
   '@exodus/schemasafe@1.3.0':
     resolution: {integrity: sha512-5Aap/GaRupgNx/feGBwLLTVv8OQFfv3pq2lPRzPg9R+IOBnDgghTGW7l7EuVXOvg5cc/xSAlRW8rBrjIC3Nvqw==}
 
-  '@faker-js/faker@8.4.1':
-    resolution: {integrity: sha512-XQ3cU+Q8Uqmrbf2e0cIC/QN43sTBSC8KF12u29Mb47tWrt2hAgBXSgpZMj4Ao8Uk0iJcU99QsOCaIL8934obCg==}
-    engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0, npm: '>=6.14.13'}
+  '@faker-js/faker@9.0.0':
+    resolution: {integrity: sha512-dTDHJSmz6c1OJ6HO7jiUiIb4sB20Dlkb3pxYsKm0qTXm2Bmj97rlXIhlvaFsW2rvCi+OLlwKLVSS6ZxFUVZvjQ==}
+    engines: {node: '>=18.0.0', npm: '>=9.0.0'}
 
   '@floating-ui/core@1.6.7':
     resolution: {integrity: sha512-yDzVT/Lm101nQ5TCVeK65LtdN7Tj4Qpr9RTXJ2vPFLqtLxwOrpoxAHAJI8J3yYWUc40J0BDBheaitK5SJmno2g==}
@@ -6186,7 +6186,7 @@ snapshots:
 
   '@exodus/schemasafe@1.3.0': {}
 
-  '@faker-js/faker@8.4.1': {}
+  '@faker-js/faker@9.0.0': {}
 
   '@floating-ui/core@1.6.7':
     dependencies:
