@@ -88,8 +88,8 @@ importers:
         specifier: 1.19.6
         version: 1.19.6(react-router-dom@6.26.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)(vite@5.4.3(@types/node@22.5.2))
       '@tanstack/react-query':
-        specifier: 5.54.1
-        version: 5.54.1(react@18.3.1)
+        specifier: 5.55.0
+        version: 5.55.0(react@18.3.1)
       axios:
         specifier: 1.7.7
         version: 1.7.7
@@ -1952,8 +1952,8 @@ packages:
   '@tanstack/query-core@5.54.1':
     resolution: {integrity: sha512-hKS+WRpT5zBFip21pB6Jx1C0hranWQrbv5EJ7qPoiV5MYI3C8rTCqWC9DdBseiPT1JgQWh8Y55YthuYZNiw3Xw==}
 
-  '@tanstack/react-query@5.54.1':
-    resolution: {integrity: sha512-SuMi4JBYv49UtmiRyqjxY7XAnE1qwLht9nlkC8sioxFXz5Uzj30lepiKf2mYXuXfC7fHYjTrAPkNx+427pRHXA==}
+  '@tanstack/react-query@5.55.0':
+    resolution: {integrity: sha512-2uYuxEbRQD8TORUiTUacEOwt1e8aoSqUOJFGY5TUrh6rQ3U85zrMS2wvbNhBhXGh6Vj69QDCP2yv8tIY7joo6Q==}
     peerDependencies:
       react: ^18 || ^19
 
@@ -7220,7 +7220,7 @@ snapshots:
 
   '@tanstack/query-core@5.54.1': {}
 
-  '@tanstack/react-query@5.54.1(react@18.3.1)':
+  '@tanstack/react-query@5.55.0(react@18.3.1)':
     dependencies:
       '@tanstack/query-core': 5.54.1
       react: 18.3.1
