@@ -198,8 +198,8 @@ importers:
   packages/ui:
     dependencies:
       '@fontsource/noto-sans-jp':
-        specifier: 5.0.20
-        version: 5.0.20
+        specifier: 5.1.0
+        version: 5.1.0
       '@mantine/core':
         specifier: 7.12.2
         version: 7.12.2(@mantine/hooks@7.12.2(react@18.3.1))(@types/react@18.3.5)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -711,8 +711,8 @@ packages:
   '@floating-ui/utils@0.2.7':
     resolution: {integrity: sha512-X8R8Oj771YRl/w+c1HqAC1szL8zWQRwFvgDwT129k9ACdBoud/+/rX9V0qiMl6LWUdP9voC2nDVZYPMQQsb6eA==}
 
-  '@fontsource/noto-sans-jp@5.0.20':
-    resolution: {integrity: sha512-lngBJltejJmlT2/cm1gkBJ8yj64JRLZ+tk3QxrdM7paSLYdLccmDiWg+vEtixGfcxd7ZJRpZmdRjhhj8mLiZag==}
+  '@fontsource/noto-sans-jp@5.1.0':
+    resolution: {integrity: sha512-i3qKfXM+qLcMRP1KJ3PfvmtP7Iv4ZqalsPWR4TPY5zQ7vCtj3YGL5lvzuimkdo5clV4/6JwRMyK4YOu3ZUhwHw==}
 
   '@generouted/react-router@1.19.6':
     resolution: {integrity: sha512-czOBAwmYYr1E9GZstiek8Kd16NSLT+/yZs4HU/NW/Xd27Yk3SpI1q8hll4kD9mzvM4yuJZxWsOyQsZsxY2MNsA==}
@@ -4625,7 +4625,7 @@ snapshots:
 
   '@floating-ui/utils@0.2.7': {}
 
-  '@fontsource/noto-sans-jp@5.0.20': {}
+  '@fontsource/noto-sans-jp@5.1.0': {}
 
   '@generouted/react-router@1.19.6(react-router-dom@6.26.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)(vite@5.4.4(@types/node@22.5.4))':
     dependencies:
