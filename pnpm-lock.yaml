@@ -55,8 +55,8 @@ importers:
         specifier: 20.16.5
         version: 20.16.5
       '@types/react':
-        specifier: 18.3.5
-        version: 18.3.5
+        specifier: 18.3.6
+        version: 18.3.6
       '@types/react-dom':
         specifier: 18.3.0
         version: 18.3.0
@@ -113,8 +113,8 @@ importers:
         specifier: 9.6.1
         version: 9.6.1
       '@types/react':
-        specifier: 18.3.5
-        version: 18.3.5
+        specifier: 18.3.6
+        version: 18.3.6
       '@types/react-dom':
         specifier: 18.3.0
         version: 18.3.0
@@ -159,8 +159,8 @@ importers:
         version: 5.3.0(react@18.3.1)
     devDependencies:
       '@types/react':
-        specifier: 18.3.5
-        version: 18.3.5
+        specifier: 18.3.6
+        version: 18.3.6
       '@types/react-dom':
         specifier: 18.3.0
         version: 18.3.0
@@ -202,20 +202,20 @@ importers:
         version: 5.1.0
       '@mantine/core':
         specifier: 7.12.2
-        version: 7.12.2(@mantine/hooks@7.12.2(react@18.3.1))(@types/react@18.3.5)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        version: 7.12.2(@mantine/hooks@7.12.2(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@mantine/hooks':
         specifier: 7.12.2
         version: 7.12.2(react@18.3.1)
       '@mantine/notifications':
         specifier: 7.12.2
-        version: 7.12.2(@mantine/core@7.12.2(@mantine/hooks@7.12.2(react@18.3.1))(@types/react@18.3.5)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@mantine/hooks@7.12.2(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        version: 7.12.2(@mantine/core@7.12.2(@mantine/hooks@7.12.2(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@mantine/hooks@7.12.2(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
     devDependencies:
       '@storybook/react':
         specifier: 8.3.0
         version: 8.3.0(@storybook/test@8.3.0(storybook@8.3.0))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(storybook@8.3.0)(typescript@5.6.2)
       '@types/react':
-        specifier: 18.3.5
-        version: 18.3.5
+        specifier: 18.3.6
+        version: 18.3.6
       '@types/react-dom':
         specifier: 18.3.0
         version: 18.3.0
@@ -1666,8 +1666,8 @@ packages:
   '@types/react-dom@18.3.0':
     resolution: {integrity: sha512-EhwApuTmMBmXuFOikhQLIBUn6uFg81SwLMOAUgodJF14SOBOCMdU04gDoYi0WOJJHD144TL32z4yDqCW3dnkQg==}
 
-  '@types/react@18.3.5':
-    resolution: {integrity: sha512-WeqMfGJLGuLCqHGYRGHxnKrXcTitc6L/nBUWfWPcTarG3t9PsquqUMuVeXZeca+mglY4Vo5GZjCi0A3Or2lnxA==}
+  '@types/react@18.3.6':
+    resolution: {integrity: sha512-CnGaRYNu2iZlkGXGrOYtdg5mLK8neySj0woZ4e2wF/eli2E6Sazmq5X+Nrj6OBrrFVQfJWTUFeqAzoRhWQXYvg==}
 
   '@types/resolve@1.20.6':
     resolution: {integrity: sha512-A4STmOXPhMUtHH+S6ymgE2GiBSMqf4oTvcQZMcHzokuTLVYzXTB8ttjcgxOVaAp2lGwEdzZ0J+cRbbeevQj1UQ==}
@@ -4964,7 +4964,7 @@ snapshots:
 
   '@lukeed/csprng@1.1.0': {}
 
-  '@mantine/core@7.12.2(@mantine/hooks@7.12.2(react@18.3.1))(@types/react@18.3.5)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@mantine/core@7.12.2(@mantine/hooks@7.12.2(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@floating-ui/react': 0.26.24(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@mantine/hooks': 7.12.2(react@18.3.1)
@@ -4972,8 +4972,8 @@ snapshots:
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
       react-number-format: 5.4.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      react-remove-scroll: 2.6.0(@types/react@18.3.5)(react@18.3.1)
-      react-textarea-autosize: 8.5.3(@types/react@18.3.5)(react@18.3.1)
+      react-remove-scroll: 2.6.0(@types/react@18.3.6)(react@18.3.1)
+      react-textarea-autosize: 8.5.3(@types/react@18.3.6)(react@18.3.1)
       type-fest: 4.26.1
     transitivePeerDependencies:
       - '@types/react'
@@ -4982,9 +4982,9 @@ snapshots:
     dependencies:
       react: 18.3.1
 
-  '@mantine/notifications@7.12.2(@mantine/core@7.12.2(@mantine/hooks@7.12.2(react@18.3.1))(@types/react@18.3.5)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@mantine/hooks@7.12.2(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@mantine/notifications@7.12.2(@mantine/core@7.12.2(@mantine/hooks@7.12.2(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@mantine/hooks@7.12.2(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
-      '@mantine/core': 7.12.2(@mantine/hooks@7.12.2(react@18.3.1))(@types/react@18.3.5)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@mantine/core': 7.12.2(@mantine/hooks@7.12.2(react@18.3.1))(@types/react@18.3.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@mantine/hooks': 7.12.2(react@18.3.1)
       '@mantine/store': 7.12.2(react@18.3.1)
       react: 18.3.1
@@ -4995,10 +4995,10 @@ snapshots:
     dependencies:
       react: 18.3.1
 
-  '@mdx-js/react@3.0.1(@types/react@18.3.5)(react@18.3.1)':
+  '@mdx-js/react@3.0.1(@types/react@18.3.6)(react@18.3.1)':
     dependencies:
       '@types/mdx': 2.0.13
-      '@types/react': 18.3.5
+      '@types/react': 18.3.6
       react: 18.3.1
 
   '@microsoft/api-extractor-model@7.29.6(@types/node@22.5.5)':
@@ -5518,12 +5518,12 @@ snapshots:
 
   '@storybook/addon-docs@8.3.0(storybook@8.3.0)':
     dependencies:
-      '@mdx-js/react': 3.0.1(@types/react@18.3.5)(react@18.3.1)
+      '@mdx-js/react': 3.0.1(@types/react@18.3.6)(react@18.3.1)
       '@storybook/blocks': 8.3.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(storybook@8.3.0)
       '@storybook/csf-plugin': 8.3.0(storybook@8.3.0)
       '@storybook/global': 5.0.0
       '@storybook/react-dom-shim': 8.3.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(storybook@8.3.0)
-      '@types/react': 18.3.5
+      '@types/react': 18.3.6
       fs-extra: 11.2.0
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
@@ -5987,9 +5987,9 @@ snapshots:
 
   '@types/react-dom@18.3.0':
     dependencies:
-      '@types/react': 18.3.5
+      '@types/react': 18.3.6
 
-  '@types/react@18.3.5':
+  '@types/react@18.3.6':
     dependencies:
       '@types/prop-types': 15.7.12
       csstype: 3.1.3
@@ -8147,24 +8147,24 @@ snapshots:
 
   react-refresh@0.14.2: {}
 
-  react-remove-scroll-bar@2.3.6(@types/react@18.3.5)(react@18.3.1):
+  react-remove-scroll-bar@2.3.6(@types/react@18.3.6)(react@18.3.1):
     dependencies:
       react: 18.3.1
-      react-style-singleton: 2.2.1(@types/react@18.3.5)(react@18.3.1)
+      react-style-singleton: 2.2.1(@types/react@18.3.6)(react@18.3.1)
       tslib: 2.7.0
     optionalDependencies:
-      '@types/react': 18.3.5
+      '@types/react': 18.3.6
 
-  react-remove-scroll@2.6.0(@types/react@18.3.5)(react@18.3.1):
+  react-remove-scroll@2.6.0(@types/react@18.3.6)(react@18.3.1):
     dependencies:
       react: 18.3.1
-      react-remove-scroll-bar: 2.3.6(@types/react@18.3.5)(react@18.3.1)
-      react-style-singleton: 2.2.1(@types/react@18.3.5)(react@18.3.1)
+      react-remove-scroll-bar: 2.3.6(@types/react@18.3.6)(react@18.3.1)
+      react-style-singleton: 2.2.1(@types/react@18.3.6)(react@18.3.1)
       tslib: 2.7.0
-      use-callback-ref: 1.3.2(@types/react@18.3.5)(react@18.3.1)
-      use-sidecar: 1.1.2(@types/react@18.3.5)(react@18.3.1)
+      use-callback-ref: 1.3.2(@types/react@18.3.6)(react@18.3.1)
+      use-sidecar: 1.1.2(@types/react@18.3.6)(react@18.3.1)
     optionalDependencies:
-      '@types/react': 18.3.5
+      '@types/react': 18.3.6
 
   react-router-dom@6.26.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
     dependencies:
@@ -8178,21 +8178,21 @@ snapshots:
       '@remix-run/router': 1.19.2
       react: 18.3.1
 
-  react-style-singleton@2.2.1(@types/react@18.3.5)(react@18.3.1):
+  react-style-singleton@2.2.1(@types/react@18.3.6)(react@18.3.1):
     dependencies:
       get-nonce: 1.0.1
       invariant: 2.2.4
       react: 18.3.1
       tslib: 2.7.0
     optionalDependencies:
-      '@types/react': 18.3.5
+      '@types/react': 18.3.6
 
-  react-textarea-autosize@8.5.3(@types/react@18.3.5)(react@18.3.1):
+  react-textarea-autosize@8.5.3(@types/react@18.3.6)(react@18.3.1):
     dependencies:
       '@babel/runtime': 7.25.6
       react: 18.3.1
       use-composed-ref: 1.3.0(react@18.3.1)
-      use-latest: 1.2.1(@types/react@18.3.5)(react@18.3.1)
+      use-latest: 1.2.1(@types/react@18.3.6)(react@18.3.1)
     transitivePeerDependencies:
       - '@types/react'
 
@@ -8785,37 +8785,37 @@ snapshots:
       querystringify: 2.2.0
       requires-port: 1.0.0
 
-  use-callback-ref@1.3.2(@types/react@18.3.5)(react@18.3.1):
+  use-callback-ref@1.3.2(@types/react@18.3.6)(react@18.3.1):
     dependencies:
       react: 18.3.1
       tslib: 2.7.0
     optionalDependencies:
-      '@types/react': 18.3.5
+      '@types/react': 18.3.6
 
   use-composed-ref@1.3.0(react@18.3.1):
     dependencies:
       react: 18.3.1
 
-  use-isomorphic-layout-effect@1.1.2(@types/react@18.3.5)(react@18.3.1):
+  use-isomorphic-layout-effect@1.1.2(@types/react@18.3.6)(react@18.3.1):
     dependencies:
       react: 18.3.1
     optionalDependencies:
-      '@types/react': 18.3.5
+      '@types/react': 18.3.6
 
-  use-latest@1.2.1(@types/react@18.3.5)(react@18.3.1):
+  use-latest@1.2.1(@types/react@18.3.6)(react@18.3.1):
     dependencies:
       react: 18.3.1
-      use-isomorphic-layout-effect: 1.1.2(@types/react@18.3.5)(react@18.3.1)
+      use-isomorphic-layout-effect: 1.1.2(@types/react@18.3.6)(react@18.3.1)
     optionalDependencies:
-      '@types/react': 18.3.5
+      '@types/react': 18.3.6
 
-  use-sidecar@1.1.2(@types/react@18.3.5)(react@18.3.1):
+  use-sidecar@1.1.2(@types/react@18.3.6)(react@18.3.1):
     dependencies:
       detect-node-es: 1.1.0
       react: 18.3.1
       tslib: 2.7.0
     optionalDependencies:
-      '@types/react': 18.3.5
+      '@types/react': 18.3.6
 
   util-deprecate@1.0.2: {}
 
