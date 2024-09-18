@@ -107,8 +107,8 @@ importers:
         specifier: 9.0.1
         version: 9.0.1
       '@openapitools/openapi-generator-cli':
-        specifier: 2.13.6
-        version: 2.13.6
+        specifier: 2.13.7
+        version: 2.13.7
       '@types/eslint':
         specifier: 9.6.1
         version: 9.6.1
@@ -1003,12 +1003,12 @@ packages:
       axios: ^1.3.1
       rxjs: ^6.0.0 || ^7.0.0
 
-  '@nestjs/common@10.3.0':
-    resolution: {integrity: sha512-DGv34UHsZBxCM3H5QGE2XE/+oLJzz5+714JQjBhjD9VccFlQs3LRxo/epso4l7nJIiNlZkPyIUC8WzfU/5RTsQ==}
+  '@nestjs/common@10.4.3':
+    resolution: {integrity: sha512-4hbLd3XIJubHSylYd/1WSi4VQvG68KM/ECYpMDqA3k3J1/T17SAg40sDoq3ZoO5OZgU0xuNyjuISdOTjs11qVg==}
     peerDependencies:
       class-transformer: '*'
       class-validator: '*'
-      reflect-metadata: ^0.1.12
+      reflect-metadata: ^0.1.12 || ^0.2.0
       rxjs: ^7.1.0
     peerDependenciesMeta:
       class-transformer:
@@ -1016,14 +1016,14 @@ packages:
       class-validator:
         optional: true
 
-  '@nestjs/core@10.3.0':
-    resolution: {integrity: sha512-N06P5ncknW/Pm8bj964WvLIZn2gNhHliCBoAO1LeBvNImYkecqKcrmLbY49Fa1rmMfEM3MuBHeDys3edeuYAOA==}
+  '@nestjs/core@10.4.3':
+    resolution: {integrity: sha512-6OQz+5C8mT8yRtfvE5pPCq+p6w5jDot+oQku1KzQ24ABn+lay1KGuJwcKZhdVNuselx+8xhdMxknZTA8wrGLIg==}
     peerDependencies:
       '@nestjs/common': ^10.0.0
       '@nestjs/microservices': ^10.0.0
       '@nestjs/platform-express': ^10.0.0
       '@nestjs/websockets': ^10.0.0
-      reflect-metadata: ^0.1.12
+      reflect-metadata: ^0.1.12 || ^0.2.0
       rxjs: ^7.1.0
     peerDependenciesMeta:
       '@nestjs/microservices':
@@ -1059,8 +1059,8 @@ packages:
   '@open-draft/until@2.1.0':
     resolution: {integrity: sha512-U69T3ItWHvLwGg5eJ0n3I62nWuE6ilHlmz7zM0npLBRvPRd7e6NYmg54vvRtP5mZG7kZqZCFVdsTWo7BPtBujg==}
 
-  '@openapitools/openapi-generator-cli@2.13.6':
-    resolution: {integrity: sha512-w5qIHmxi9g0xTEYPGySPerzHIWOw51WGtpIXxyZX/GJO0trcOyLmIXj8dItZOUokQ/a4uqARgO5kqtEVnUVzTQ==}
+  '@openapitools/openapi-generator-cli@2.13.7':
+    resolution: {integrity: sha512-DS3wWEma1WXPhlqcv+XRVPlCBkME0hkKBVr7GSwlQWvWwIekm/fU4PR8sxhVXYJ33EIpKHfGofT0ZH9+K2lvjQ==}
     engines: {node: '>=10.0.0'}
     hasBin: true
 
@@ -3463,8 +3463,8 @@ packages:
   path-to-regexp@0.1.10:
     resolution: {integrity: sha512-7lf7qcQidTku0Gu3YDPc8DJ1q7OOucfa/BSsIwjuh56VU7katFvuM8hULfkwB3Fns/rsVF7PwPKVw1sl5KQS9w==}
 
-  path-to-regexp@3.2.0:
-    resolution: {integrity: sha512-jczvQbCUS7XmS7o+y1aEO9OBVFeZBQ1MDSEqmO7xSoPgOPoowY/SxLpZ6Vh97/8qHZOteiCKb7gkG9gA2ZUxJA==}
+  path-to-regexp@3.3.0:
+    resolution: {integrity: sha512-qyCH421YQPS2WFDxDjftfc1ZR5WKQzVzqsp4n9M2kQhVOo/ByahFoUNJfl58kOcEGfQ//7weFTDhm+ss8Ecxgw==}
 
   path-to-regexp@6.3.0:
     resolution: {integrity: sha512-Yhpw4T9C6hPpgPeA28us07OJeqZ5EzQTkbfwuhsUg0c237RomFoETJgmp2sa3F/41gfLE6G5cqcYwznmeEeOlQ==}
@@ -5070,30 +5070,30 @@ snapshots:
       outvariant: 1.4.3
       strict-event-emitter: 0.5.1
 
-  '@nestjs/axios@3.0.3(@nestjs/common@10.3.0(reflect-metadata@0.1.13)(rxjs@7.8.1))(axios@1.7.4)(rxjs@7.8.1)':
+  '@nestjs/axios@3.0.3(@nestjs/common@10.4.3(reflect-metadata@0.1.13)(rxjs@7.8.1))(axios@1.7.4)(rxjs@7.8.1)':
     dependencies:
-      '@nestjs/common': 10.3.0(reflect-metadata@0.1.13)(rxjs@7.8.1)
+      '@nestjs/common': 10.4.3(reflect-metadata@0.1.13)(rxjs@7.8.1)
       axios: 1.7.4
       rxjs: 7.8.1
 
-  '@nestjs/common@10.3.0(reflect-metadata@0.1.13)(rxjs@7.8.1)':
+  '@nestjs/common@10.4.3(reflect-metadata@0.1.13)(rxjs@7.8.1)':
     dependencies:
       iterare: 1.2.1
       reflect-metadata: 0.1.13
       rxjs: 7.8.1
-      tslib: 2.6.2
+      tslib: 2.7.0
       uid: 2.0.2
 
-  '@nestjs/core@10.3.0(@nestjs/common@10.3.0(reflect-metadata@0.1.13)(rxjs@7.8.1))(reflect-metadata@0.1.13)(rxjs@7.8.1)':
+  '@nestjs/core@10.4.3(@nestjs/common@10.4.3(reflect-metadata@0.1.13)(rxjs@7.8.1))(reflect-metadata@0.1.13)(rxjs@7.8.1)':
     dependencies:
-      '@nestjs/common': 10.3.0(reflect-metadata@0.1.13)(rxjs@7.8.1)
+      '@nestjs/common': 10.4.3(reflect-metadata@0.1.13)(rxjs@7.8.1)
       '@nuxtjs/opencollective': 0.3.2
       fast-safe-stringify: 2.1.1
       iterare: 1.2.1
-      path-to-regexp: 3.2.0
+      path-to-regexp: 3.3.0
       reflect-metadata: 0.1.13
       rxjs: 7.8.1
-      tslib: 2.6.2
+      tslib: 2.7.0
       uid: 2.0.2
     transitivePeerDependencies:
       - encoding
@@ -5127,11 +5127,11 @@ snapshots:
 
   '@open-draft/until@2.1.0': {}
 
-  '@openapitools/openapi-generator-cli@2.13.6':
+  '@openapitools/openapi-generator-cli@2.13.7':
     dependencies:
-      '@nestjs/axios': 3.0.3(@nestjs/common@10.3.0(reflect-metadata@0.1.13)(rxjs@7.8.1))(axios@1.7.4)(rxjs@7.8.1)
-      '@nestjs/common': 10.3.0(reflect-metadata@0.1.13)(rxjs@7.8.1)
-      '@nestjs/core': 10.3.0(@nestjs/common@10.3.0(reflect-metadata@0.1.13)(rxjs@7.8.1))(reflect-metadata@0.1.13)(rxjs@7.8.1)
+      '@nestjs/axios': 3.0.3(@nestjs/common@10.4.3(reflect-metadata@0.1.13)(rxjs@7.8.1))(axios@1.7.4)(rxjs@7.8.1)
+      '@nestjs/common': 10.4.3(reflect-metadata@0.1.13)(rxjs@7.8.1)
+      '@nestjs/core': 10.4.3(@nestjs/common@10.4.3(reflect-metadata@0.1.13)(rxjs@7.8.1))(reflect-metadata@0.1.13)(rxjs@7.8.1)
       '@nuxtjs/opencollective': 0.3.2
       axios: 1.7.4
       chalk: 4.1.2
@@ -8048,7 +8048,7 @@ snapshots:
 
   path-to-regexp@0.1.10: {}
 
-  path-to-regexp@3.2.0: {}
+  path-to-regexp@3.3.0: {}
 
   path-to-regexp@6.3.0: {}
 
