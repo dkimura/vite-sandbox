@@ -33,7 +33,7 @@
     "@vitejs/plugin-react": "4.3.2",
     "@vitejs/plugin-react-swc": "3.7.1",
     "eslint": "8.57.1",
-    "eslint-plugin-react-hooks": "4.6.2",
+    "eslint-plugin-react-hooks": "5.0.0",
     "eslint-plugin-react-refresh": "0.4.12",
     "msw": "2.4.10",
     "orval": "7.1.1",
