@@ -1,5 +1,5 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:recommended", ":maintainLockFilesWeekly", ":automergeAll"],
-  "commitMessageExtra": "from {{{currentVersion}}} to {{#if isMajor}}v{{{newVersionMajor}}}{{else}}{{#unless isRange}}v{{/unless}}{{{newVersion}}}{{/if}}"
+  "commitMessageExtra": "from {{{currentVersion}}} to {{#if isMajor}}v{{{newVersionMajor}}}{{else}}{{#unless isRange}}v{{/unless}}{{{newVersion}}}{{/if}} in {{{packageFileDir}}}"
 }
