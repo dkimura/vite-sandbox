@@ -85,8 +85,8 @@ importers:
         specifier: workspace:*
         version: link:../../packages/ui
       '@generouted/react-router':
-        specifier: 1.19.10
-        version: 1.19.10(react-router-dom@7.1.5(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(react@19.0.0)(vite@5.4.14(@types/node@22.13.1))
+        specifier: 1.20.0
+        version: 1.20.0(react-router@7.1.5(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(react@19.0.0)(vite@5.4.14(@types/node@22.13.1))
       '@tanstack/react-query':
         specifier: 5.66.0
         version: 5.66.0(react@19.0.0)
@@ -716,12 +716,12 @@ packages:
   '@fontsource/noto-sans-jp@5.1.1':
     resolution: {integrity: sha512-PXk7mDjiaW99xU85IIxRGekzxLz91h2usk0rfDXSVwds9Nuo4sdlDUEE8PQ1P3VLnV00FsCHfSH54uR217VXpg==}
 
-  '@generouted/react-router@1.19.10':
-    resolution: {integrity: sha512-t+skXxGZNqrhl/tDnXgrE0a4exfkKfg1kmsirs7H/BKQxBq3m5a/OEY98pAi2PEgGFN1t8u4/dBEQh2FUA8Wcg==}
+  '@generouted/react-router@1.20.0':
+    resolution: {integrity: sha512-VAOdbH/Z2MzroTB61XYsS1uMJvX5am7CKuF/MgF3ZXS6YSvA6rz9pvQxZbg5PIK4R9h7bsA/oRQlJNLSgQKjEA==}
     peerDependencies:
       react: '>=18'
-      react-router-dom: '>=6'
-      vite: '>=4'
+      react-router: '>=7'
+      vite: '>=5'
 
   '@humanwhocodes/config-array@0.13.0':
     resolution: {integrity: sha512-DZLEEqFWQFiyK6h5YIeynKx7JlvCYWL0cImfSRXZ9l4Sg2efkFGTuFf6vzXjK1cq6IYkU+Eg/JizXw+TD2vRNw==}
@@ -2389,10 +2389,10 @@ packages:
   functions-have-names@1.2.3:
     resolution: {integrity: sha512-xckBUXyTIqT97tq2x2AMb+g163b5JFysYk0x4qxNFwbfQkmNZoiRHb6sPzI9/QV33WeuvVYBUIiD4NzNIyqaRQ==}
 
-  generouted@1.19.10:
-    resolution: {integrity: sha512-qwCDdVMwN4+C3eTlwxiQrDfr+6URY5T87WzEIeUxhZ2zLVzwvnAMYWAAAgnr4tJA+47L+KvHKr4BYn50VQxsnw==}
+  generouted@1.20.0:
+    resolution: {integrity: sha512-VXU5dFsWdm/faFo2fTGW5obYxy8hhM6B1WXYhCLAV+5pODhrsu8RBc/1IsOQKqtHFYqsuSE5C5KpzmBaLllUqg==}
     peerDependencies:
-      vite: '>=3'
+      vite: '>=5'
 
   gensync@1.0.0-beta.2:
     resolution: {integrity: sha512-3hN7NaskYvMDLQY55gnW3NQ+mesEAepTqlg+VEbj7zzqEMBVNhzcGYYeqFo/TlYz6eQiFcp1HcsCZO+nGgS8zg==}
@@ -4611,12 +4611,12 @@ snapshots:
 
   '@fontsource/noto-sans-jp@5.1.1': {}
 
-  '@generouted/react-router@1.19.10(react-router-dom@7.1.5(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(react@19.0.0)(vite@5.4.14(@types/node@22.13.1))':
+  '@generouted/react-router@1.20.0(react-router@7.1.5(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(react@19.0.0)(vite@5.4.14(@types/node@22.13.1))':
     dependencies:
       fast-glob: 3.3.3
-      generouted: 1.19.10(vite@5.4.14(@types/node@22.13.1))
+      generouted: 1.20.0(vite@5.4.14(@types/node@22.13.1))
       react: 19.0.0
-      react-router-dom: 7.1.5(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      react-router: 7.1.5(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       vite: 5.4.14(@types/node@22.13.1)
 
   '@humanwhocodes/config-array@0.13.0':
@@ -6751,7 +6751,7 @@ snapshots:
 
   functions-have-names@1.2.3: {}
 
-  generouted@1.19.10(vite@5.4.14(@types/node@22.13.1)):
+  generouted@1.20.0(vite@5.4.14(@types/node@22.13.1)):
     dependencies:
       vite: 5.4.14(@types/node@22.13.1)
 
