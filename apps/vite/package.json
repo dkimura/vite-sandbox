@@ -23,7 +23,7 @@
     "react-router-dom": "7.5.0"
   },
   "devDependencies": {
-    "@faker-js/faker": "9.6.0",
+    "@faker-js/faker": "9.7.0",
     "@openapitools/openapi-generator-cli": "2.18.4",
     "@types/eslint": "9.6.1",
     "@types/react": "19.1.1",
