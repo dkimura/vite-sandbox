@@ -32,7 +32,7 @@
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0"
   },
   "dependencies": {
-    "@fontsource/noto-sans-jp": "5.2.5",
+    "@fontsource/noto-sans-jp": "5.2.6",
     "@mantine/core": "8.1.0",
     "@mantine/hooks": "8.1.0",
     "@mantine/notifications": "8.1.0"
