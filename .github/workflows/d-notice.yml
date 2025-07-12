@@ -27,7 +27,7 @@ jobs:
           echo ${{ github.event.comment.user.avatar_url }}
 
       - name: Notify Discussion Comment for Frontend
-        uses: slackapi/slack-github-action@v2.1.0
+        uses: slackapi/slack-github-action@v2.1.1
         if: github.event.discussion.category.node_id == env.CATEGORY_ID
         with:
           payload: |
