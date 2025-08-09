@@ -128,8 +128,8 @@ importers:
         specifier: 5.0.0
         version: 5.0.0(vite@5.4.19(@types/node@22.17.1))
       '@vitejs/plugin-react-swc':
-        specifier: 3.11.0
-        version: 3.11.0(vite@5.4.19(@types/node@22.17.1))
+        specifier: 4.0.0
+        version: 4.0.0(vite@5.4.19(@types/node@22.17.1))
       eslint:
         specifier: 8.57.1
         version: 8.57.1
@@ -226,8 +226,8 @@ importers:
         specifier: 8.39.0
         version: 8.39.0(eslint@8.57.1)(typescript@5.9.2)
       '@vitejs/plugin-react-swc':
-        specifier: 3.11.0
-        version: 3.11.0(vite@5.4.19(@types/node@22.17.1))
+        specifier: 4.0.0
+        version: 4.0.0(vite@5.4.19(@types/node@22.17.1))
       eslint:
         specifier: 8.57.1
         version: 8.57.1
@@ -1003,9 +1003,6 @@ packages:
     resolution: {integrity: sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg==}
     engines: {node: '>=14'}
 
-  '@rolldown/pluginutils@1.0.0-beta.27':
-    resolution: {integrity: sha512-+d0F4MKMCbeVUJwG96uQ4SgAznZNSq93I3V+9NHA4OpvqG8mRCpGdKmK8l/dl02h2CCDHwW2FqilnTyDcAnqjA==}
-
   '@rolldown/pluginutils@1.0.0-beta.30':
     resolution: {integrity: sha512-whXaSoNUFiyDAjkUF8OBpOm77Szdbk5lGNqFe6CbVbJFrhCCPinCbRA3NjawwlNHla1No7xvXXh+CpSxnPfUEw==}
 
@@ -1657,8 +1654,9 @@ packages:
   '@ungap/structured-clone@1.3.0':
     resolution: {integrity: sha512-WmoN8qaIAo7WTYWbAZuG8PYEhn5fkz7dZrqTBZ7dtt//lL2Gwms1IcnQ5yHqjDfX8Ft5j4YzDM23f87zBfDe9g==}
 
-  '@vitejs/plugin-react-swc@3.11.0':
-    resolution: {integrity: sha512-YTJCGFdNMHCMfjODYtxRNVAYmTWQ1Lb8PulP/2/f/oEEtglw8oKxKIZmmRkyXrVrHfsKOaVkAc3NT9/dMutO5w==}
+  '@vitejs/plugin-react-swc@4.0.0':
+    resolution: {integrity: sha512-4A1dThI578v07mpG4M+ziNn6lmlMlhtVCheL+2WLvClnLvEULi8rpAZThn2oEKn3GtFXFTOeko6eLRhx2V2kgA==}
+    engines: {node: ^20.19.0 || >=22.12.0}
     peerDependencies:
       vite: ^4 || ^5 || ^6 || ^7
 
@@ -4983,8 +4981,6 @@ snapshots:
   '@pkgjs/parseargs@0.11.0':
     optional: true
 
-  '@rolldown/pluginutils@1.0.0-beta.27': {}
-
   '@rolldown/pluginutils@1.0.0-beta.30': {}
 
   '@rollup/pluginutils@5.2.0(rollup@4.46.0)':
@@ -5781,9 +5777,9 @@ snapshots:
 
   '@ungap/structured-clone@1.3.0': {}
 
-  '@vitejs/plugin-react-swc@3.11.0(vite@5.4.19(@types/node@22.17.1))':
+  '@vitejs/plugin-react-swc@4.0.0(vite@5.4.19(@types/node@22.17.1))':
     dependencies:
-      '@rolldown/pluginutils': 1.0.0-beta.27
+      '@rolldown/pluginutils': 1.0.0-beta.30
       '@swc/core': 1.13.2
       vite: 5.4.19(@types/node@22.17.1)
     transitivePeerDependencies:
