@@ -107,8 +107,8 @@ importers:
         specifier: 10.0.0
         version: 10.0.0
       '@openapitools/openapi-generator-cli':
-        specifier: 2.23.0
-        version: 2.23.0(@types/node@22.18.0)
+        specifier: 2.23.1
+        version: 2.23.1(@types/node@22.18.0)
       '@types/eslint':
         specifier: 9.6.1
         version: 9.6.1
@@ -976,8 +976,8 @@ packages:
   '@open-draft/until@2.1.0':
     resolution: {integrity: sha512-U69T3ItWHvLwGg5eJ0n3I62nWuE6ilHlmz7zM0npLBRvPRd7e6NYmg54vvRtP5mZG7kZqZCFVdsTWo7BPtBujg==}
 
-  '@openapitools/openapi-generator-cli@2.23.0':
-    resolution: {integrity: sha512-hWX3C0oLiwNpVZG3YJUnQgl02ltcZ0YcwHHWf7iIET+WGdZV0PeUkkjOfvBz4MipF0oaaw6qKhvrPQ9IuAKepg==}
+  '@openapitools/openapi-generator-cli@2.23.1':
+    resolution: {integrity: sha512-Kd5EZqzbcIXf6KRlpUrheHMzQNRHsJWzAGrm4ncWCNhnQl+Mh6TsFcqq+hIetgiFCknWBH6cZ2f37SxPxaon4w==}
     engines: {node: '>=16'}
     hasBin: true
 
@@ -2035,8 +2035,8 @@ packages:
   concat-map@0.0.1:
     resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==}
 
-  concurrently@9.2.0:
-    resolution: {integrity: sha512-IsB/fiXTupmagMW4MNp2lx2cdSN2FfZq78vF90LBB+zZHArbIQZjQtzXCiXnvTxCZSvXanTqFLWBjw2UkLx1SQ==}
+  concurrently@9.2.1:
+    resolution: {integrity: sha512-fsfrO0MxV64Znoy8/l1vVIjjHa29SZyyqPgQBwhiDcaW8wJc2W3XWVOGx4M3oJBnv/zdUZIIp1gDeS98GzP8Ng==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -4837,7 +4837,7 @@ snapshots:
 
   '@open-draft/until@2.1.0': {}
 
-  '@openapitools/openapi-generator-cli@2.23.0(@types/node@22.18.0)':
+  '@openapitools/openapi-generator-cli@2.23.1(@types/node@22.18.0)':
     dependencies:
       '@nestjs/axios': 4.0.1(@nestjs/common@11.1.6(reflect-metadata@0.2.2)(rxjs@7.8.2))(axios@1.11.0)(rxjs@7.8.2)
       '@nestjs/common': 11.1.6(reflect-metadata@0.2.2)(rxjs@7.8.2)
@@ -4847,7 +4847,7 @@ snapshots:
       chalk: 4.1.2
       commander: 8.3.0
       compare-versions: 4.1.4
-      concurrently: 9.2.0
+      concurrently: 9.2.1
       console.table: 0.10.0
       fs-extra: 11.3.1
       glob: 11.0.3
@@ -6161,10 +6161,9 @@ snapshots:
 
   concat-map@0.0.1: {}
 
-  concurrently@9.2.0:
+  concurrently@9.2.1:
     dependencies:
       chalk: 4.1.2
-      lodash: 4.17.21
       rxjs: 7.8.2
       shell-quote: 1.8.3
       supports-color: 8.1.1
