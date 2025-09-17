@@ -76,8 +76,8 @@ importers:
   apps/vite:
     dependencies:
       '@auth0/auth0-react':
-        specifier: 2.4.0
-        version: 2.4.0(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
+        specifier: 2.5.0
+        version: 2.5.0(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
       '@dkimura/icons':
         specifier: workspace:*
         version: link:../../packages/icons
@@ -274,8 +274,8 @@ packages:
   '@asyncapi/specs@6.10.0':
     resolution: {integrity: sha512-vB5oKLsdrLUORIZ5BXortZTlVyGWWMC1Nud/0LtgxQ3Yn2738HigAD6EVqScvpPsDUI/bcLVsYEXN4dtXQHVng==}
 
-  '@auth0/auth0-react@2.4.0':
-    resolution: {integrity: sha512-5bt3sO9FVupNM15IpqyYu/2OPHpLI5El7RgWLQXZOPbnCBbtl+VgdHR+H2NfhNQ4SqQtC/5uKbHWafcVcsxkiw==}
+  '@auth0/auth0-react@2.5.0':
+    resolution: {integrity: sha512-o2nuJ85D4ESRybh3zbA5Dl1Oe17fRZL+/Q17b1qQdS+0QWZrXTEzTMD0wb0tYGST5rJb8rt7pVh6Tj4cWhdTCQ==}
     peerDependencies:
       react: ^16.11.0 || ^17 || ^18 || ^19
       react-dom: ^16.11.0 || ^17 || ^18 || ^19
@@ -4229,7 +4229,7 @@ snapshots:
     dependencies:
       '@types/json-schema': 7.0.15
 
-  '@auth0/auth0-react@2.4.0(react-dom@19.1.1(react@19.1.1))(react@19.1.1)':
+  '@auth0/auth0-react@2.5.0(react-dom@19.1.1(react@19.1.1))(react@19.1.1)':
     dependencies:
       '@auth0/auth0-spa-js': 2.4.1
       react: 19.1.1
