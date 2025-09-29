@@ -107,8 +107,8 @@ importers:
         specifier: 10.0.0
         version: 10.0.0
       '@openapitools/openapi-generator-cli':
-        specifier: 2.23.4
-        version: 2.23.4(@types/node@22.18.6)
+        specifier: 2.24.0
+        version: 2.24.0(@types/node@22.18.6)
       '@types/eslint':
         specifier: 9.6.1
         version: 9.6.1
@@ -978,8 +978,8 @@ packages:
   '@open-draft/until@2.1.0':
     resolution: {integrity: sha512-U69T3ItWHvLwGg5eJ0n3I62nWuE6ilHlmz7zM0npLBRvPRd7e6NYmg54vvRtP5mZG7kZqZCFVdsTWo7BPtBujg==}
 
-  '@openapitools/openapi-generator-cli@2.23.4':
-    resolution: {integrity: sha512-9/sUf5q2j2waXUMF78sJjywQJOv2+cyPzabYsqou8AAuUOXQCfNRUzRP+Vxe05dodAtxBCE7Mi+JBuDRleDOEA==}
+  '@openapitools/openapi-generator-cli@2.24.0':
+    resolution: {integrity: sha512-VS0sfW46oe/hQq7g1YZU1cJJebAQIwKhKqjsDY1/QFmcJMXYfe339yjMDTv02kMbsx621cSH46HIdvmW+i+7mg==}
     engines: {node: '>=16'}
     hasBin: true
 
@@ -4848,7 +4848,7 @@ snapshots:
 
   '@open-draft/until@2.1.0': {}
 
-  '@openapitools/openapi-generator-cli@2.23.4(@types/node@22.18.6)':
+  '@openapitools/openapi-generator-cli@2.24.0(@types/node@22.18.6)':
     dependencies:
       '@nestjs/axios': 4.0.1(@nestjs/common@11.1.6(reflect-metadata@0.2.2)(rxjs@7.8.2))(axios@1.12.2)(rxjs@7.8.2)
       '@nestjs/common': 11.1.6(reflect-metadata@0.2.2)(rxjs@7.8.2)
