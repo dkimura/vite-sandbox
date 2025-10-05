@@ -36,7 +36,7 @@
     "eslint-plugin-react-hooks": "6.1.0",
     "eslint-plugin-react-refresh": "0.4.23",
     "msw": "2.11.3",
-    "orval": "7.13.0",
+    "orval": "7.13.1",
     "typescript": "5.9.3",
     "vite": "5.4.20"
   }
