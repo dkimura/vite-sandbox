@@ -49,7 +49,7 @@
     "@typescript-eslint/parser": "8.46.2",
     "@vitejs/plugin-react-swc": "4.1.0",
     "eslint": "8.57.1",
-    "eslint-plugin-react-hooks": "7.0.0",
+    "eslint-plugin-react-hooks": "7.0.1",
     "react": "19.2.0",
     "react-dom": "19.2.0",
     "typescript": "5.9.3",
