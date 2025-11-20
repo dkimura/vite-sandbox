@@ -24,7 +24,7 @@
   },
   "devDependencies": {
     "@faker-js/faker": "10.1.0",
-    "@openapitools/openapi-generator-cli": "2.25.1",
+    "@openapitools/openapi-generator-cli": "2.25.2",
     "@types/eslint": "9.6.1",
     "@types/react": "19.2.6",
     "@types/react-dom": "19.2.3",
