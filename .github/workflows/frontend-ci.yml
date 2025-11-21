@@ -12,7 +12,7 @@ jobs:
 
     steps:
       - name: Checkout 🛎
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
 
       - name: TurboRepo local server 💪
         uses: felixmosh/turborepo-gh-artifacts@v3
