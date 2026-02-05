@@ -12,7 +12,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@auth0/auth0-react": "2.12.0",
+    "@auth0/auth0-react": "2.13.0",
     "@dkimura/icons": "workspace:*",
     "@dkimura/ui": "workspace:*",
     "@generouted/react-router": "1.20.0",
