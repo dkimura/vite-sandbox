@@ -33,9 +33,9 @@
   },
   "dependencies": {
     "@fontsource/noto-sans-jp": "5.2.9",
-    "@mantine/core": "8.3.14",
-    "@mantine/hooks": "8.3.14",
-    "@mantine/notifications": "8.3.14"
+    "@mantine/core": "8.3.15",
+    "@mantine/hooks": "8.3.15",
+    "@mantine/notifications": "8.3.15"
   },
   "peerDependencies": {
     "react": "^18.2.0 || ^19.0.0",
