@@ -76,8 +76,8 @@ importers:
   apps/vite:
     dependencies:
       '@auth0/auth0-react':
-        specifier: 2.14.0
-        version: 2.14.0(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
+        specifier: 2.15.0
+        version: 2.15.0(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       '@dkimura/icons':
         specifier: workspace:*
         version: link:../../packages/icons
@@ -277,14 +277,14 @@ packages:
   '@auth0/auth0-auth-js@1.4.0':
     resolution: {integrity: sha512-ShA7KT4KvcBEtxsXZTcrmoNxai5q1JXhB2aEBFnZD1L6LNLzzmiUWiFTtGMsaaITCylr8TJ/onEQk6XZmUHXbg==}
 
-  '@auth0/auth0-react@2.14.0':
-    resolution: {integrity: sha512-Uyn9mB+pOJ0ko81aJoTbOJok11E4rFeNXhzNFLsvWaUD7dp0Qe3B9zwsbQhaCxrsJOX1UXg0y4ck/RjwNnsPoA==}
+  '@auth0/auth0-react@2.15.0':
+    resolution: {integrity: sha512-LbRU87U54/YW/N3UHtNVoj3mCBBz+iYAdAByQjbXOkpI6IYnjMBwIwDusW3N23XNXq9WnihD57Dyi2R3/Q9btw==}
     peerDependencies:
       react: ^16.11.0 || ^17 || ^18 || ~19.0.1 || ~19.1.2 || ^19.2.1
       react-dom: ^16.11.0 || ^17 || ^18 || ~19.0.1 || ~19.1.2 || ^19.2.1
 
-  '@auth0/auth0-spa-js@2.15.0':
-    resolution: {integrity: sha512-cXv1Isyy4JEc+GxesQPFj3SEbDSnCVQTGiardY9WLSoYTsMMU585Kgm9TJFPJO4dDq3wi+DSJoy3IUcB3rr9nA==}
+  '@auth0/auth0-spa-js@2.16.0':
+    resolution: {integrity: sha512-UTP45NqjC2jVc/WaWh+iYOZt6FajpTJc+3WzljbXBiv2f76wDw4Mt9hW/aShBovsRmvKEIHaCifD3c/Gxmo2ZQ==}
 
   '@babel/code-frame@7.29.0':
     resolution: {integrity: sha512-9NhCeYjq9+3uxgdtp20LSiJXJvN0FeCtNGpJxuMFZ1Kv3cWUNb6DOhJwUvcVCzKGR66cw4njwM6hrJLqgOwbcw==}
@@ -4345,13 +4345,13 @@ snapshots:
       jose: 6.1.3
       openid-client: 6.8.2
 
-  '@auth0/auth0-react@2.14.0(react-dom@19.2.4(react@19.2.4))(react@19.2.4)':
+  '@auth0/auth0-react@2.15.0(react-dom@19.2.4(react@19.2.4))(react@19.2.4)':
     dependencies:
-      '@auth0/auth0-spa-js': 2.15.0
+      '@auth0/auth0-spa-js': 2.16.0
       react: 19.2.4
       react-dom: 19.2.4(react@19.2.4)
 
-  '@auth0/auth0-spa-js@2.15.0':
+  '@auth0/auth0-spa-js@2.16.0':
     dependencies:
       '@auth0/auth0-auth-js': 1.4.0
       browser-tabs-lock: 1.3.0
