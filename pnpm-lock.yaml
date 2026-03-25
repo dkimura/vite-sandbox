@@ -76,8 +76,8 @@ importers:
   apps/vite:
     dependencies:
       '@auth0/auth0-react':
-        specifier: 2.15.1
-        version: 2.15.1(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
+        specifier: 2.16.0
+        version: 2.16.0(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       '@dkimura/icons':
         specifier: workspace:*
         version: link:../../packages/icons
@@ -277,8 +277,8 @@ packages:
   '@auth0/auth0-auth-js@1.5.0':
     resolution: {integrity: sha512-shahG7sRw6VxduRvnNcmbgL8V42z+kNR9LDih9ofY4eM8ygt07RUh58x7S1M80ENx9wcMqYUsJWMaVudgQHyjQ==}
 
-  '@auth0/auth0-react@2.15.1':
-    resolution: {integrity: sha512-zcBh8xWO1cgUeN19tQueZHVzq7/O+yWc6MhKdQvoU0ima0wagl9SeyVmahg8aiBQqRcqT6C+y2+IOcnPGnI2Vw==}
+  '@auth0/auth0-react@2.16.0':
+    resolution: {integrity: sha512-vQJdfkcNsPsZqhQ2KLRX+XhnC2FtbNdYGLkIRcoVaQMvOZeTOnsU45uu5HoNw61Am6j8vvf6YaUrXBlFOnJlZA==}
     peerDependencies:
       react: ^16.11.0 || ^17 || ^18 || ~19.0.1 || ~19.1.2 || ^19.2.1
       react-dom: ^16.11.0 || ^17 || ^18 || ~19.0.1 || ~19.1.2 || ^19.2.1
@@ -4285,7 +4285,7 @@ snapshots:
       jose: 6.2.2
       openid-client: 6.8.2
 
-  '@auth0/auth0-react@2.15.1(react-dom@19.2.4(react@19.2.4))(react@19.2.4)':
+  '@auth0/auth0-react@2.16.0(react-dom@19.2.4(react@19.2.4))(react@19.2.4)':
     dependencies:
       '@auth0/auth0-spa-js': 2.18.0
       react: 19.2.4
