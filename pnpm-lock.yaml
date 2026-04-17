@@ -76,8 +76,8 @@ importers:
   apps/vite:
     dependencies:
       '@auth0/auth0-react':
-        specifier: 2.16.1
-        version: 2.16.1(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
+        specifier: 2.16.2
+        version: 2.16.2(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
       '@dkimura/icons':
         specifier: workspace:*
         version: link:../../packages/icons
@@ -277,14 +277,14 @@ packages:
   '@auth0/auth0-auth-js@1.6.0':
     resolution: {integrity: sha512-/WYYNlsqhWA6I60pMVLFVeOgjOUCLdJThEAsjN8pAgYY09BTxbPaRIEVDgGu6ckoJpkmKvEYlHPO/vwRNrvX6w==}
 
-  '@auth0/auth0-react@2.16.1':
-    resolution: {integrity: sha512-YT6ngVDh3MV5ey2zhzXVQdLN0gQQCGzvykGtQVGY49Bky/NCB/Os6sXPhqqdsoTB07umYY9Uu54GowqwUSO4sw==}
+  '@auth0/auth0-react@2.16.2':
+    resolution: {integrity: sha512-Sp7aXuvSMXh0qO74wv25ZsNjCAX1HItU2LhHCvPAJKQYRr/Rc9b1OtdyhkkIXAlAYgQZ2qbC2P8hiDpRh54aAw==}
     peerDependencies:
       react: ^16.11.0 || ^17 || ^18 || ~19.0.1 || ~19.1.2 || ^19.2.1
       react-dom: ^16.11.0 || ^17 || ^18 || ~19.0.1 || ~19.1.2 || ^19.2.1
 
-  '@auth0/auth0-spa-js@2.19.0':
-    resolution: {integrity: sha512-I2/wlIJ6Ch3X1AekG7w9F2wM5SbsnPX0MX0B67MM9vgqbLeSP8wfK1cuc279nmTEKnIxxDzcKHC6stWg/0fYQQ==}
+  '@auth0/auth0-spa-js@2.19.2':
+    resolution: {integrity: sha512-NJOjPQZjZ8g2LXkBjNiYtf614WGVhwCg+q9L2MXcEQqey+ign9CG/wnl9OxYDz7XuItWecfYQLbiVTjIGNZ/Dw==}
 
   '@babel/code-frame@7.29.0':
     resolution: {integrity: sha512-9NhCeYjq9+3uxgdtp20LSiJXJvN0FeCtNGpJxuMFZ1Kv3cWUNb6DOhJwUvcVCzKGR66cw4njwM6hrJLqgOwbcw==}
@@ -4264,13 +4264,13 @@ snapshots:
       jose: 6.2.2
       openid-client: 6.8.2
 
-  '@auth0/auth0-react@2.16.1(react-dom@19.2.5(react@19.2.5))(react@19.2.5)':
+  '@auth0/auth0-react@2.16.2(react-dom@19.2.5(react@19.2.5))(react@19.2.5)':
     dependencies:
-      '@auth0/auth0-spa-js': 2.19.0
+      '@auth0/auth0-spa-js': 2.19.2
       react: 19.2.5
       react-dom: 19.2.5(react@19.2.5)
 
-  '@auth0/auth0-spa-js@2.19.0':
+  '@auth0/auth0-spa-js@2.19.2':
     dependencies:
       '@auth0/auth0-auth-js': 1.6.0
       browser-tabs-lock: 1.3.0
@@ -5221,7 +5221,7 @@ snapshots:
       dependency-graph: 0.11.0
       fast-memoize: 2.5.2
       immer: 9.0.21
-      lodash: 4.17.23
+      lodash: 4.18.1
       tslib: 2.8.1
       urijs: 1.19.11
 
@@ -5231,7 +5231,7 @@ snapshots:
       '@stoplight/path': 1.3.2
       '@stoplight/types': 13.6.0
       jsonc-parser: 2.2.1
-      lodash: 4.17.23
+      lodash: 4.18.1
       safe-stable-stringify: 1.1.1
 
   '@stoplight/ordered-object-literal@1.0.5': {}
@@ -5332,7 +5332,7 @@ snapshots:
       '@stoplight/path': 1.3.2
       '@stoplight/types': 13.6.0
       abort-controller: 3.0.0
-      lodash: 4.17.23
+      lodash: 4.18.1
       node-fetch: 2.7.0
       tslib: 2.8.1
     transitivePeerDependencies:
