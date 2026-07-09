@@ -21,7 +21,7 @@ jobs:
           server-token: ${{ secrets.TURBO_TOKEN }}
 
       - name: Setup pnpm 🧑‍💼
-        uses: pnpm/action-setup@v2
+        uses: pnpm/action-setup@v6
         with:
           version: latest
 
